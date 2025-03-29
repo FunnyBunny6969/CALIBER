@@ -1,120 +1,224 @@
-$accentCol: #f8cf00;
+$accentCol: #ffd800;
 $bgCol: white;
 $peripheralCol: #484848;
+$row_border: #d4b100;
+$radius: 22px;
 
-
+@mixin text-style(  $font-size: 12px, 
+                    $color: $peripheralCol) 
+{
+    font-size: $font-size;
+    color: $color;
+}
 
 
 header{
-    background-color: #ffd800;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    background-color: $accentCol;
 
     width: 100%;
     height: 110px;
     
-    margin: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 32px;
 
+    min-width: 150px;
+    
 
-    form{
-        position: absolute;
-        width: 500px;
-        height: 50px;
-        top: 45px;
-        left: 650px;
-        background-color: $bgCol;
-        border-radius: 5px;
-        overflow: hidden;
+    .row{
+        width: 100%;
+        height: 32px;
+
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: $row_border;
 
         display: flex;
-        align-items: center;
+        justify-content: flex-end;
 
-        label{
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 15%;
+        padding-right: 15%;
 
-        input{
-            flex-grow: 1;
-            border: none;
-            padding: 10px;
-            font-family: "Inter-Regular", Helvetica;
-            font-size: 12px;
-        }
 
-        button{
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 10px;
+        .messangers{
+            width: 245px;
+            height: 32px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
 
-            img{
-                width: 20px;
-                height: 20px;
+            p{
+                @include text-style();
+                line-height: 32px;
+                height: 32px;
+                margin-right: 5px;
+            }
+
+            a{
+                img{
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 5px;
+                }
             }
         }
     }
 
-    div{
-        .messangers{
-            .group{
-                div{
-                    p{
 
-                    }
+    .logo{
+        height: 110px;
+        width: 250px;
+
+        position: absolute;
+        top: 0;
+        text-align: center;
+
+        padding-bottom: 5px;
+
+        div{
+            margin: 0 auto;
+            width: 200px;
+            height: 75px;
+            margin-top: 10px;
+            background-color: $accentCol;
+            img{
+                height: 75px;
+            }
+        }
+
+        p{
+            @include text-style(15px);
+            margin-top: 0;
+            text-align: center;
+        }
+    }
+
+
+    .container{
+        margin-left: 350px;
+        height: 78px;
+
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+
+        form{
+            width: 500px;
+            height: 50px;
+            background-color: $bgCol;
+            border-radius: 5px;
+
+            display: flex;
+            align-items: center;
+
+            input{
+                flex-grow: 1;
+                border: none;
+                padding: 10px;
+                font-family: "Inter-Regular", Helvetica;
+                font-size: 12px;
+            }
+
+            button{
+                background: none;
+                border: none;
+                padding: 10px;
+
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .right{
+            width: 380px;
+            height: 78px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .phone{
+                height: 60px;
+                width: 300px;
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+
+                padding-right: 30px;
+                border-right: 2px solid;
+                border-color: $peripheralCol;
+
+                .links{
+                    margin-top: 10px;
+
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    height: 25px;
+
+
+                    p{
+                        margin: 0;
+                        @include text-style(20px);
+                        text-align: right;
+                        margin-right: 7px;
+                        text-decoration: none;
+                    }                
+
                     a{
                         img{
-
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 7px;
                         }
                     }
                 }
-            }
-        }
-        .logo{
-            img{
 
-            }
-            p{
-
-            }
-        }
-    }
-
-    .phone{
-        a{
-
-        }
-        div{
-            a{
-                img{
-
+                p{
+                    @include text-style(12px);
+                    margin-top: 0;
+                    text-align: right;
+                    text-decoration: underline;
+                    font-style:italic;
                 }
             }
-        }
-    }
 
-    .separator{
-        button{
 
-        }
-    }
+            .basket{
+                width: 80px;
+                height: 78px;
+                display: flex;
+                align-items: center;
+                position: relative;
 
-    .basket{
-        a{
-            img{
+                img{
+                    height: 50px;
+                    width: 50px;
+                    margin: 0 auto;
+                }
 
-            }
-            span{
+                div{
+                    position: absolute;
+                    left: 51px;
+                    top: 49px;
+                    
+                    background-color: white;
+                    width: $radius;
+                    height: $radius;
+                    border-radius: 11px;
+                    text-align: center;
 
+                    .count{
+                        line-height: $radius;
+                        @include text-style(17px, black);
+                    }   
+                }
             }
         }
     }
