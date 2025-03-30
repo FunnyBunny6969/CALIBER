@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1400px;
+    margin: 0 auto;
+
+
+    aside{
+        width: 26%;
+    }
+
+    .cards{
+        width: 74%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+    }
+}

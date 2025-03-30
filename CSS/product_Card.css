@@ -1,12 +1,13 @@
 section {
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
   border: rgb(200, 200, 200) 0.5px solid;
-  width: 360px;
+  width: 320px;
   height: 400px;
   padding-top: 5px;
+  margin: 11px;
 }
 section > div:first-child {
-  width: 360px;
+  width: 320px;
   height: 165px;
   margin-bottom: 5px;
   display: flex;
@@ -49,18 +50,18 @@ section .avalibility p {
   line-height: 12px;
 }
 section h2 {
-  width: 320px;
+  width: 300px;
   text-align: center;
   margin: 0;
   margin: 0 auto;
   margin-top: 7px;
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 15px;
   color: #363636;
   font-family: "Inter-Regular", Helvetica;
 }
 section .parameters {
-  width: 350px;
+  width: 300px;
   height: 80px;
   margin: 0 auto;
 }
@@ -72,7 +73,7 @@ section .parameters .line {
   align-items: center;
 }
 section .parameters .line .dots {
-  flex-grow: 1;
+  flex: 1;
   height: 12px;
   border-bottom: 1px #363636 dashed;
   margin-left: 5px;

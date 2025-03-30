@@ -21,12 +21,14 @@ section {
     box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
     border: $card_border 0.5px solid;
 
-    width: 360px;
+    width: 320px;
     height: 400px;
     padding-top: 5px;
 
+    margin: 11px;
+
     > div:first-child{
-        width: 360px;
+        width: 320px;
         height: 165px;
 
         margin-bottom: 5px;
@@ -71,17 +73,17 @@ section {
     }
 
     h2{
-        width: 320px;
+        width: 300px;
         text-align: center;
         margin: 0;
         margin: 0 auto;
         margin-top: 7px;
         margin-bottom: 5px;
-        @include text-style(16px);
+        @include text-style(15px);
     }
 
     .parameters{
-        width: 350px;
+        width: 300px;
         height: 80px;
         margin: 0 auto;
 
@@ -93,7 +95,7 @@ section {
             align-items: center;
 
             .dots{
-                flex-grow: 1;
+                flex: 1;
                 height: 12px;
                 border-bottom: 1px $peripheralCol dashed;
                 margin-left: 5px;

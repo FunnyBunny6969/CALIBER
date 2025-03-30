@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+}
+main aside {
+  width: 26%;
+}
+main .cards {
+  width: 74%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}/*# sourceMappingURL=main.css.map */
