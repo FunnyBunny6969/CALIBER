@@ -5,7 +5,6 @@ header {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 32px;
-  min-width: 150px;
 }
 header .row {
   width: 100%;
@@ -31,6 +30,7 @@ header .row .messangers {
 header .row .messangers p {
   font-size: 12px;
   color: #484848;
+  font-family: "Inter-Regular", Helvetica;
   line-height: 32px;
   height: 32px;
   margin-right: 5px;
@@ -61,6 +61,7 @@ header .logo div img {
 header .logo p {
   font-size: 15px;
   color: #484848;
+  font-family: "Inter-Regular", Helvetica;
   margin-top: 0;
   text-align: center;
 }
@@ -83,8 +84,12 @@ header .container form input {
   flex-grow: 1;
   border: none;
   padding: 10px;
-  font-family: "Inter-Regular", Helvetica;
   font-size: 12px;
+  color: black;
+  font-family: "Inter-Regular", Helvetica;
+}
+header .container form input:focus {
+  outline: none;
 }
 header .container form button {
   background: none;
@@ -94,6 +99,9 @@ header .container form button {
 header .container form button img {
   width: 20px;
   height: 20px;
+}
+header .container form button:hover {
+  cursor: pointer;
 }
 header .container .right {
   width: 380px;
@@ -109,8 +117,8 @@ header .container .right .phone {
   justify-content: flex-end;
   flex-direction: column;
   padding-right: 30px;
-  border-right: 2px solid;
-  border-color: #484848;
+  border-right: 1px solid;
+  border-color: #d4b100;
 }
 header .container .right .phone .links {
   margin-top: 10px;
@@ -123,6 +131,7 @@ header .container .right .phone .links p {
   margin: 0;
   font-size: 20px;
   color: #484848;
+  font-family: "Inter-Regular", Helvetica;
   text-align: right;
   margin-right: 7px;
   text-decoration: none;
@@ -135,6 +144,7 @@ header .container .right .phone .links a img {
 header .container .right .phone p {
   font-size: 12px;
   color: #484848;
+  font-family: "Inter-Regular", Helvetica;
   margin-top: 0;
   text-align: right;
   text-decoration: underline;
@@ -166,4 +176,5 @@ header .container .right .basket div .count {
   line-height: 22px;
   font-size: 17px;
   color: black;
+  font-family: "Inter-Regular", Helvetica;
 }/*# sourceMappingURL=header.css.map */

@@ -9,6 +9,7 @@ $radius: 22px;
 {
     font-size: $font-size;
     color: $color;
+    font-family: "Inter-Regular", Helvetica;
 }
 
 
@@ -22,7 +23,6 @@ header{
     padding-right: 15%;
     padding-top: 32px;
 
-    min-width: 150px;
     
 
     .row{
@@ -119,8 +119,11 @@ header{
                 flex-grow: 1;
                 border: none;
                 padding: 10px;
-                font-family: "Inter-Regular", Helvetica;
-                font-size: 12px;
+                @include text-style(12px, black);
+
+                &:focus{
+                    outline: none;
+                }
             }
 
             button{
@@ -131,6 +134,10 @@ header{
                 img{
                     width: 20px;
                     height: 20px;
+                }
+                
+                &:hover{
+                    cursor: pointer;
                 }
             }
         }
@@ -150,8 +157,8 @@ header{
                 flex-direction: column;
 
                 padding-right: 30px;
-                border-right: 2px solid;
-                border-color: $peripheralCol;
+                border-right: 1px solid;
+                border-color: $row_border;
 
                 .links{
                     margin-top: 10px;
