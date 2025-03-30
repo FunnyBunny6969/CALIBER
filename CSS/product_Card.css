@@ -1,0 +1,120 @@
+section {
+  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+  border: rgb(200, 200, 200) 0.5px solid;
+  width: 360px;
+  height: 400px;
+  padding-top: 5px;
+}
+section > div:first-child {
+  width: 360px;
+  height: 165px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+section > div:first-child img {
+  height: 165px;
+}
+section .price {
+  width: 120px;
+  height: 23px;
+  margin: 0 auto;
+}
+section .price .num {
+  font-size: 23px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  line-height: 23px;
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+section .price span {
+  font-size: 12px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  line-height: 23px;
+}
+section .avalibility {
+  width: 120px;
+  height: 12px;
+  margin: 0 auto;
+}
+section .avalibility p {
+  font-size: 12px;
+  color: #22B110;
+  font-family: "Inter-Regular", Helvetica;
+  text-align: center;
+  margin: 0;
+  line-height: 12px;
+}
+section h2 {
+  width: 320px;
+  text-align: center;
+  margin: 0;
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+}
+section .parameters {
+  width: 350px;
+  height: 80px;
+  margin: 0 auto;
+}
+section .parameters .line {
+  width: 100%;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .parameters .line .dots {
+  flex-grow: 1;
+  height: 12px;
+  border-bottom: 1px #363636 dashed;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+section .parameters .line p {
+  font-size: 12px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  margin: 0;
+}
+section .buttons {
+  width: 186px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+section .buttons .buy {
+  height: 35px;
+  width: 70px;
+  text-align: center;
+  font-size: 12px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  border: 1px #363636 solid;
+  background-color: #ffd800;
+}
+section .buttons .buy:hover {
+  background-color: #ffe137;
+}
+section .buttons .one_click {
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  border: 1px #363636 solid;
+  background-color: #363636;
+}
+section .buttons .one_click:hover {
+  background-color: #5a5a5a;
+}/*# sourceMappingURL=product_Card.css.map */

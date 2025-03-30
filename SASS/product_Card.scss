@@ -1,0 +1,150 @@
+$accentCol: #ffd800;
+$bgCol: white;
+$peripheralCol: #363636;
+$row_border: #d4b100;
+$avalible: #22B110;
+$radius: 22px;
+$card_border: rgb(200, 200, 200);
+
+
+
+@mixin text-style(  $font-size: 12px, 
+                    $color: $peripheralCol) 
+{
+    font-size: $font-size;
+    color: $color;
+    font-family: "Inter-Regular", Helvetica;
+}
+
+
+section {
+    box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+    border: $card_border 0.5px solid;
+
+    width: 360px;
+    height: 400px;
+    padding-top: 5px;
+
+    > div:first-child{
+        width: 360px;
+        height: 165px;
+
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            height: 165px;
+        }
+    }
+
+    .price{
+        width: 120px;
+        height: 23px;
+        margin: 0 auto;
+
+        .num{
+            @include text-style(23px);
+            line-height: 23px;
+            display: inline-block;
+            width:70px;
+            text-align: right;
+        }
+
+        span{
+            @include text-style(12px);
+            line-height: 23px;
+        }
+    }
+
+    .avalibility{
+        width: 120px;
+        height: 12px;
+        margin: 0 auto;
+        
+        p{
+            @include text-style(12px, $avalible);
+            text-align: center;
+            margin: 0;
+            line-height: 12px;
+        }
+    }
+
+    h2{
+        width: 320px;
+        text-align: center;
+        margin: 0;
+        margin: 0 auto;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        @include text-style(16px);
+    }
+
+    .parameters{
+        width: 350px;
+        height: 80px;
+        margin: 0 auto;
+
+        .line{
+            width: 100%;
+            height: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .dots{
+                flex-grow: 1;
+                height: 12px;
+                border-bottom: 1px $peripheralCol dashed;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+            p{
+                @include text-style(12px);
+                margin: 0;
+            }
+        }
+    }
+
+    .buttons{
+
+        width: 186px;
+        height: 35px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 15px;
+
+        .buy{
+            height: 35px;
+            width: 70px;
+            text-align: center;
+
+            @include text-style(12px);
+
+            border: 1px $peripheralCol solid;
+            background-color: $accentCol;
+
+            &:hover{
+                background-color: #ffe137;
+            }
+        }
+
+        .one_click{
+            height: 35px;
+            width: 100px;
+            text-align: center;
+
+            @include text-style(12px, white);
+
+            border: 1px $peripheralCol solid;
+            background-color: $peripheralCol;
+
+            &:hover{
+                background-color: #5a5a5a;
+            }
+        }
+    }
+
+}

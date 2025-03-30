@@ -51,12 +51,12 @@ header .logo {
 header .logo div {
   margin: 0 auto;
   width: 200px;
-  height: 75px;
-  margin-top: 10px;
+  height: 85px;
+  margin-top: 5px;
   background-color: #ffd800;
 }
 header .logo div img {
-  height: 75px;
+  height: 85px;
 }
 header .logo p {
   font-size: 15px;
