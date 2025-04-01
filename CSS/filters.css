@@ -1,0 +1,170 @@
+.headline {
+  height: 35px;
+  width: 100%;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.headline img {
+  width: 20px;
+  height: 20px;
+}
+.headline h2 {
+  margin: 0;
+  font-size: 17px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: bolder;
+  line-height: 20px;
+}
+.headline:hover::after {
+  content: attr(data-title);
+  font-size: 16px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  position: absolute;
+  left: 30px;
+  top: -120px;
+  width: 600px;
+  padding: 18px;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid white;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+}
+
+.listFilt {
+  padding: 12px;
+  padding-top: 17px;
+  padding-bottom: 25px;
+}
+.listFilt > .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
+  padding-right: 7px;
+}
+.listFilt div:not(.headline):not(.container) {
+  width: 100%;
+  height: 25px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  margin-bottom: 3px;
+}
+.listFilt div:not(.headline):not(.container) input {
+  -webkit-appearance: none;
+  appearance: none;
+  user-select: none;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #363636;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.listFilt div:not(.headline):not(.container) input:checked {
+  border-color: #ffd800;
+  background-color: #ffd800;
+}
+.listFilt div:not(.headline):not(.container) p {
+  font-size: 13px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  line-height: 13px;
+}
+.listFilt div:not(.headline):not(.container) span {
+  font-size: 20px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  align-items: center;
+  height: 25px;
+  border: 1px solid #ffd800;
+  border-radius: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  position: absolute;
+  right: 0;
+}
+
+.clickable + .container {
+  height: 0;
+}
+
+.clickable:active + .container {
+  height: 200px;
+}
+
+.rangeFilt {
+  padding: 12px;
+  padding-top: 17px;
+  padding-bottom: 25px;
+}
+.rangeFilt .range {
+  display: flex;
+  justify-content: space-between;
+}
+.rangeFilt .range div {
+  height: 34px;
+  width: 18px;
+  border-radius: 9px/17px;
+  box-shadow: 0 0 10px rgba(87, 87, 87, 0.3);
+}
+.rangeFilt .range span {
+  width: 43%;
+  height: 35px;
+  border: 1px solid rgb(200, 200, 200);
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+}
+.rangeFilt .switch_line {
+  width: 100%;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+  position: relative;
+}
+.rangeFilt .switch_line input::-webkit-slider-thumb {
+  border-radius: 3px;
+  background-color: rgb(255, 115, 0);
+  width: 12px;
+  height: 17px;
+  box-shadow: 0 5px 10px rgba(87, 87, 87, 0.3);
+  pointer-events: all;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+.rangeFilt .switch_line input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: none;
+  -webkit-appearance: none;
+  pointer-events: none;
+  z-index: 1;
+}
+.rangeFilt .switch_line .track {
+  height: 5px;
+  background-color: #ffd800;
+  position: absolute;
+  width: 80%;
+  left: 20%;
+  z-index: 0;
+}
+.rangeFilt .switch_line .bottomTrack {
+  height: 5px;
+  background-color: #363636;
+  position: absolute;
+  width: 100%;
+  left: 2px;
+  z-index: -1;
+}/*# sourceMappingURL=filters.css.map */

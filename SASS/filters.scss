@@ -1,0 +1,197 @@
+@import "common";
+
+
+.headline{
+
+    height: 35px;
+    width: 100%;
+    padding-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    img{
+        width: 20px;
+        height: 20px;
+
+
+    }
+
+    h2{
+        @include FiltHeader;
+        line-height: 20px;
+    }
+    &:hover::after { 
+        content: attr(data-title);
+        @include text-style(16px);
+        position: absolute;
+        left: 30px;
+        top: -120px;
+        width: 600px;
+        padding: 18px;
+        background-color: white;
+        z-index: 1;
+        border: 1px solid $bgCol;
+        border-radius: 6px;
+        box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+    }
+
+}
+
+
+
+
+.listFilt{
+    padding: 12px;
+    padding-top: 17px;
+    padding-bottom: 25px;
+    
+    >.container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        overflow-y: scroll;
+        padding-right: 7px;
+    }
+
+    div:not(.headline):not(.container){
+        width: 100%;
+        height: 25px;
+        align-items: center;
+        position: relative;
+        display: flex;
+
+        margin-bottom: 3px;
+
+        input{
+            -webkit-appearance: none;
+            appearance: none;
+
+            user-select: none;
+            height: 20px;
+            width: 20px;
+
+            border: 1px solid $peripheralCol;
+            border-radius: 3px;
+
+            margin-right: 5px;
+
+            &:checked{
+                border-color: $accentCol;
+                background-color: $accentCol; 
+            }
+        } 
+
+        p{
+            @include text-style(13px);
+            line-height: 13px;
+        }
+
+        span{
+            @include text-style(20px);
+            align-items: center;
+            height: 25px;
+            border: 1px solid $accentCol;
+            border-radius: 3px;
+            padding-left: 7px;
+            padding-right: 7px;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+
+.clickable + .container{
+    height: 0;
+}
+
+.clickable:active + .container{
+    height: 200px;
+}
+
+
+.rangeFilt{
+    padding: 12px;
+    padding-top: 17px;
+    padding-bottom: 25px;
+
+    .range{
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            height: 34px;
+            width: 18px;
+            border-radius: 9px / 17px;
+            box-shadow: 0 0 10px rgba(87, 87, 87, 0.3);
+        }
+
+        span{
+            width: 43%;
+            height: 35px;
+            border: 1px solid $card_border;
+            text-align: center;
+            line-height: 35px;
+            @include text-style(20px, );
+        }
+
+
+    }
+    
+    .switch_line{
+        width: 100%;
+        height: 17px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+        align-items: center ;
+        position: relative;
+
+        input::-webkit-slider-thumb{
+            border-radius: 3px;
+            background-color: rgb(255, 115, 0);
+            width: 12px;
+            height: 17px;
+            box-shadow: 0 5px 10px rgba(87, 87, 87, 0.3);
+
+            pointer-events: all;
+            cursor: pointer;
+            -webkit-appearance: none;
+            
+        }
+
+        input {
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            background: none;
+            -webkit-appearance: none;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .track{
+            height: 5px;
+            background-color: $accentCol;
+            position: absolute;
+            width: 80%;
+            left: 20%;
+            z-index: 0;
+        }
+
+        .bottomTrack{
+            height: 5px;
+            background-color: $peripheralCol;
+            position: absolute;
+            width: 100%;
+            left: 2px;
+            z-index: -1;
+        }
+    }
+    
+    
+}

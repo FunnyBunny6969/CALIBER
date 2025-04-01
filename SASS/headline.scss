@@ -1,0 +1,46 @@
+@import "common";
+
+.headline{
+    height: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    h2{
+        @include FiltHeader;
+    }
+    
+    img{
+        width: 20px;
+        height: 20px;
+    }
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    &:hover::after { 
+        content: attr(data-title);
+        @include text-style(16px);
+        position: absolute;
+        left: 30px;
+        top: -120px;
+        width: 600px;
+        padding: 18px;
+        background-color: white;
+        z-index: 1;
+        border: 1px solid $bgCol;
+        border-radius: 6px;
+        box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+    }
+}
+
+.clickable + .container{
+    height: 0;
+}
+
+.clickable:active + .container{
+    height: 200px;
+}
