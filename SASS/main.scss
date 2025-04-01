@@ -1,4 +1,5 @@
 
+@import 'common';
 
 
 
@@ -7,18 +8,21 @@
 
 main{
     display: flex;
-    justify-content: space-between;
     
-    width: 1400px;
+    width: 1350px;
     margin: 0 auto;
 
 
     aside{
-        width: 26%;
+        margin-top: 11px;
+        width: 23%;
+        box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+        border: $card_border 0.5px solid;
+        position: relative;
     }
 
     .cards{
-        width: 74%;
+        width: 77%;
 
         display: flex;
         flex-wrap: wrap;

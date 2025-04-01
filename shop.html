@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOP</title>
-    <!-- <link rel="stylesheet" href="CSS/header.css"> -->
-     <link rel="stylesheet" href="CSS/header.css">
-     <link rel="stylesheet" href="CSS/global.css">
-     <link rel="stylesheet" href="CSS/nav.css">
-     <link rel="stylesheet" href="CSS/product_Card.css">
-     <link rel="stylesheet" href="CSS/main.css">
-     <link rel="stylesheet" href="CSS/filter.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/product_Card.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/rangeFilter.css">
 </head>
 <body>
     <header>
@@ -101,12 +100,28 @@
     <main>
         <aside>
 
-            <div class="range_el">
+            <div class="rangeFilt">
                 <h2>Цена</h2>
                 <div class="range">
                     <span>125</span>
+                    <div></div>
                     <span>2569</span>
                 </div>
+
+                <div class="switch_line">
+                    <div class="track"></div>
+                    <div class="bottomTrack"></div>
+                    <input type="range" class="range-min" 
+                    min="0" max="2569" value="2569">
+                    <input type="range" class="range-max" 
+                    min="0" max="2569" value="0">
+                </div>
+
+            </div>
+            
+
+            <div class="listFilt">
+                
             </div>
 
 
@@ -118,64 +133,6 @@
             
             
             
-    <section>
-        <div>
-            <img src="img/desert eagle.jpg">
-        </div>
-
-        <div class="price">
-            <span class="num">650</span>
-            <span>BYN</span>
-        </div>
-        <div class="avalibility">
-            <p>в наличии</p>
-        </div>
-
-        <h2>Пневматический пистолет МР-654К-20 (ПМ, Макарова) 4,5 мм</h2>
-
-
-        <div class="parameters">
-            <div class="line">
-                <p>Тип</p>
-                <div class="dots"></div>
-                <p>газобалонный</p>
-            </div>
-            
-            <div class="line">
-                <p>Скорость</p>
-                <div class="dots"></div>
-                <p>120 м/с</p>
-            </div>
-
-            
-            <div class="line">
-                <p>Патроны</p>
-                <div class="dots"></div>
-                <p>шарики ВВ</p>
-            </div>
-            
-            <div class="line">
-                <p>Блоубэк</p>
-                <div class="dots"></div>
-                <p>есть</p>
-            </div>
-
-            <div class="line">
-                <p>Корпус</p>
-                <div class="dots"></div>
-                <p>металл</p>
-            </div>
-        </div>
-
-        <div class="buttons">
-            <button class="buy">
-                КУПИТЬ
-            </button>
-            <button class="one_click">
-                В ОДИН КЛИК
-            </button>
-        </div>
-    </section>
     <section>
         <div>
             <img src="img/desert eagle.jpg">

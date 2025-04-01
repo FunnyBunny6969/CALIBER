@@ -1,20 +1,4 @@
-$accentCol: #ffd800;
-$bgCol: white;
-$peripheralCol: #363636;
-$row_border: #d4b100;
-$avalible: #22B110;
-$radius: 22px;
-$card_border: rgb(200, 200, 200);
-
-
-
-@mixin text-style(  $font-size: 12px, 
-                    $color: $peripheralCol) 
-{
-    font-size: $font-size;
-    color: $color;
-    font-family: "Inter-Regular", Helvetica;
-}
+@import 'common';
 
 
 section {
