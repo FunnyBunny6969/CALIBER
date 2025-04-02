@@ -1,0 +1,100 @@
+@import 'common';
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 35px;
+
+    h1{
+        @include text-style(30px);
+        padding-left: 18px;
+    }
+
+    >div{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+
+        .photos{
+            box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+            border: $card_border 0.5px solid;
+            flex: 5;
+            padding: 25px;
+            position: relative;
+            
+            .img-cont{
+                height: 500px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+
+                .general{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .galery{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                .img-cont{
+                    height:100px;
+                    width: 70px;
+                    margin-right: 15px;
+                    margin-bottom: 0;
+
+                    &:hover{
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+        }
+
+        .info{
+            margin-left: 15px;
+            flex: 5;
+            height: 300px;
+            box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+            border: $card_border 0.5px solid;
+            padding: 25px;
+            position: relative;
+
+            h2{
+                @include text-style(23px);
+                margin: 0;
+                margin-bottom:  20px;
+            }
+
+            .equipment{
+                height: 55px;
+                padding-left: 15px;
+                padding-right: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: red;
+
+                h2{
+                    font-weight: bold;
+                    line-height: 23px;
+                    align-items: center;
+                }
+            }
+
+        }
+    }
+
+}

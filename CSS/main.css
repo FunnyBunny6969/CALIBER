@@ -10,17 +10,17 @@ main {
   display: flex;
   width: 1350px;
   margin: 0 auto;
+  align-items: flex-start;
 }
 main aside {
   margin-top: 11px;
+  margin-right: 11px;
   width: 23%;
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
   border: rgb(200, 200, 200) 0.5px solid;
-  position: relative;
 }
 main .cards {
   width: 77%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
 }/*# sourceMappingURL=main.css.map */

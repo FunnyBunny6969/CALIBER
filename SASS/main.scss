@@ -15,13 +15,15 @@ main{
     width: 1350px;
     margin: 0 auto;
 
+    align-items: flex-start;
+
 
     aside{
         margin-top: 11px;
+        margin-right: 11px;
         width: 23%;
         box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
         border: $card_border 0.5px solid;
-        position: relative;
     }
 
     .cards{
@@ -29,7 +31,6 @@ main{
 
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-end;
 
     }
 }
