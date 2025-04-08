@@ -393,4 +393,32 @@ main{
             }
         }
     }
+
+    table{
+        @include box-style;
+        margin-left: 0;
+        width: 100%;
+        border-collapse: collapse;
+
+        tr{
+            height: 35px;
+            border-bottom: 1px solid $card_border;
+            margin-bottom: 1px;
+
+            td, th{
+                text-align: left;
+                font-weight: normal;
+                padding-left: 20px;
+                @include text-style(16px, $peripheralCol);
+            }
+        }
+
+        tr:hover,thead tr{
+            background-color: lighten($card_border, 15);
+        }
+
+        thead tr{
+            border-bottom: 2px solid darken($card_border, 20);
+        }
+    }
 }

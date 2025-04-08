@@ -9,7 +9,7 @@
 .headline h2 {
   margin: 0;
   font-size: 17px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   font-weight: bolder;
 }
@@ -23,7 +23,7 @@
 .headline:hover::after {
   content: attr(data-title);
   font-size: 16px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   position: absolute;
   left: 30px;

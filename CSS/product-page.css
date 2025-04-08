@@ -13,7 +13,7 @@ main {
 }
 main h1 {
   font-size: 30px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   padding-left: 22px;
   margin: 0;
@@ -78,7 +78,7 @@ main > div .info .container .equipment {
 }
 main > div .info .container .equipment h2 {
   font-size: 23px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   margin: 0;
   margin-bottom: 20px;
@@ -96,7 +96,7 @@ main > div .info .container .equipment .choice {
 main > div .info .container .equipment .choice h2 {
   font-weight: bold;
   line-height: 56px;
-  color: #363636;
+  color: #424242;
 }
 main > div .info .container .equipment .choice div {
   width: 120px;
@@ -107,20 +107,20 @@ main > div .info .container .equipment .choice div {
 }
 main > div .info .container .equipment .choice div .now {
   font-size: 20px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   font-weight: bolder;
   text-align: right;
 }
 main > div .info .container .equipment .choice div .was {
   font-size: 14px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   text-align: right;
   text-decoration: line-through;
 }
 main > div .info .container .equipment .choice:active {
-  background-color: dimgray;
+  background-color: #757575;
 }
 main > div .info .container .equipment .choice:active h2, main > div .info .container .equipment .choice:active .now {
   color: white;
@@ -133,13 +133,13 @@ main > div .info .container .equipment .choice:active::after {
   position: absolute;
   top: 0px;
   right: -20px;
-  border-left: 20px solid dimgray;
+  border-left: 20px solid #757575;
   border-top: 28px solid transparent;
   border-bottom: 28px solid transparent;
 }
 main > div .info .container .equipment p {
   font-size: 12px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   padding-left: 20px;
   line-height: 12px;
@@ -165,7 +165,7 @@ main > div .info .container .equipment .buttons button {
 }
 main > div .info .container .equipment .buttons .buy {
   font-size: 15px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   background-color: #ffd800;
 }
@@ -176,7 +176,7 @@ main > div .info .container .equipment .buttons .one_click {
   font-size: 15px;
   color: white;
   font-family: "Inter-Regular", Helvetica;
-  background-color: #363636;
+  background-color: #424242;
 }
 main > div .info .container .equipment .buttons .one_click:hover {
   background-color: #5a5a5a;
@@ -238,7 +238,7 @@ main > div .info .container .set .card .right {
 }
 main > div .info .container .set .card .right p {
   font-size: 15px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
 }
 main > div .info .container .set .card .right .num_price {
@@ -258,7 +258,7 @@ main > div .info .container .set .card .right .num_price .price {
 }
 main > div .info .container .set .card .right .num_price .price .now {
   font-size: 15px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   font-weight: bolder;
   text-align: right;
@@ -309,12 +309,12 @@ main > div .info .other .blocks .block svg {
 }
 main > div .info .other .blocks .block span {
   font-size: 16px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   font-weight: normal;
 }
 main > div .info .other .blocks .block:active {
-  border-color: #363636;
+  border-color: #424242;
   background-color: #ffd800;
 }
 main > div .info .other .blocks .block:active .other-info-box {
@@ -334,7 +334,7 @@ main > div .info .other .other-info-box h2 {
 }
 main > div .info .other .other-info-box ul li {
   font-size: 15px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   margin-bottom: 10px;
 }
@@ -352,4 +352,31 @@ main > div .info .other .other-info-box:nth-child(3) {
 }
 main > div .info .other .other-info-box:nth-child(4) {
   z-index: 0;
+}
+main table {
+  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+  border: rgb(200, 200, 200) 0.5px solid;
+  margin: 15px;
+  margin-left: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+main table tr {
+  height: 35px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  margin-bottom: 1px;
+}
+main table tr td, main table tr th {
+  text-align: left;
+  font-weight: normal;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #424242;
+  font-family: "Inter-Regular", Helvetica;
+}
+main table tr:hover, main table thead tr {
+  background-color: #eeeeee;
+}
+main table thead tr {
+  border-bottom: 2px solid #959595;
 }/*# sourceMappingURL=product-page.css.map */

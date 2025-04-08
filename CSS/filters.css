@@ -14,7 +14,7 @@
 .headline h2 {
   margin: 0;
   font-size: 17px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   font-weight: bolder;
   line-height: 20px;
@@ -22,12 +22,14 @@
 .headline:hover::after {
   content: attr(data-title);
   font-size: 16px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   position: absolute;
   left: 30px;
   top: -120px;
   width: 600px;
+  height: 100px;
+  overflow-y: auto;
   padding: 18px;
   background-color: white;
   z-index: 1;
@@ -63,7 +65,7 @@
   user-select: none;
   height: 20px;
   width: 20px;
-  border: 1px solid #363636;
+  border: 1px solid #424242;
   border-radius: 3px;
   margin-right: 5px;
 }
@@ -73,13 +75,13 @@
 }
 .listFilt div:not(.headline):not(.container) p {
   font-size: 13px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   line-height: 13px;
 }
 .listFilt div:not(.headline):not(.container) span {
   font-size: 20px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   align-items: center;
   height: 25px;
@@ -121,7 +123,7 @@
   text-align: center;
   line-height: 35px;
   font-size: 20px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
 }
 .rangeFilt .switch_line {
@@ -162,7 +164,7 @@
 }
 .rangeFilt .switch_line .bottomTrack {
   height: 5px;
-  background-color: #363636;
+  background-color: #424242;
   position: absolute;
   width: 100%;
   left: 2px;

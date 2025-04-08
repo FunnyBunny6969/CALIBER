@@ -23,7 +23,7 @@ section .price {
 }
 section .price .num {
   font-size: 23px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   line-height: 23px;
   display: inline-block;
@@ -32,7 +32,7 @@ section .price .num {
 }
 section .price span {
   font-size: 12px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   line-height: 23px;
 }
@@ -57,7 +57,7 @@ section h2 {
   margin-top: 7px;
   margin-bottom: 5px;
   font-size: 15px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
 }
 section .parameters {
@@ -75,13 +75,13 @@ section .parameters .line {
 section .parameters .line .dots {
   flex: 1;
   height: 12px;
-  border-bottom: 1px #363636 dashed;
+  border-bottom: 1px #424242 dashed;
   margin-left: 5px;
   margin-right: 5px;
 }
 section .parameters .line p {
   font-size: 12px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
   margin: 0;
 }
@@ -98,9 +98,9 @@ section .buttons .buy {
   width: 70px;
   text-align: center;
   font-size: 12px;
-  color: #363636;
+  color: #424242;
   font-family: "Inter-Regular", Helvetica;
-  border: 1px #363636 solid;
+  border: 1px #424242 solid;
   background-color: #ffd800;
 }
 section .buttons .buy:hover {
@@ -113,8 +113,8 @@ section .buttons .one_click {
   font-size: 12px;
   color: white;
   font-family: "Inter-Regular", Helvetica;
-  border: 1px #363636 solid;
-  background-color: #363636;
+  border: 1px #424242 solid;
+  background-color: #424242;
 }
 section .buttons .one_click:hover {
   background-color: #5a5a5a;
