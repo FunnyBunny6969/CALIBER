@@ -21,3 +21,10 @@ $card_border: rgb(200, 200, 200);
     @include text-style(17px, );
     font-weight: bolder;
 }
+
+@mixin box-style{
+    box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+    border: $card_border 0.5px solid;
+    margin: 15px;
+
+}

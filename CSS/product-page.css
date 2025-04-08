@@ -9,24 +9,29 @@ body {
 main {
   width: 1350px;
   margin: 0 auto;
-  padding-top: 35px;
+  padding-top: 20px;
 }
 main h1 {
   font-size: 30px;
   color: #363636;
   font-family: "Inter-Regular", Helvetica;
-  padding-left: 18px;
+  padding-left: 22px;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: normal;
 }
 main > div {
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  height: 790px;
 }
 main > div .photos {
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
   border: rgb(200, 200, 200) 0.5px solid;
-  flex: 5;
-  padding: 25px;
+  margin: 15px;
+  margin: 0;
+  width: 40%;
+  padding: 20px;
   position: relative;
 }
 main > div .photos .img-cont {
@@ -46,8 +51,8 @@ main > div .photos .galery {
   flex-wrap: wrap;
 }
 main > div .photos .galery .img-cont {
-  height: 100px;
-  width: 70px;
+  height: 80px;
+  width: 65px;
   margin-right: 15px;
   margin-bottom: 0;
 }
@@ -56,31 +61,295 @@ main > div .photos .galery .img-cont:hover {
 }
 main > div .info {
   margin-left: 15px;
-  flex: 5;
+  width: 60%;
   height: 300px;
-  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
-  border: rgb(200, 200, 200) 0.5px solid;
-  padding: 25px;
   position: relative;
 }
-main > div .info h2 {
+main > div .info .container {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+}
+main > div .info .container .equipment {
+  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+  border: rgb(200, 200, 200) 0.5px solid;
+  width: 60%;
+  padding-top: 25px;
+}
+main > div .info .container .equipment h2 {
   font-size: 23px;
   color: #363636;
   font-family: "Inter-Regular", Helvetica;
   margin: 0;
   margin-bottom: 20px;
+  padding-left: 25px;
+  font-weight: normal;
 }
-main > div .info .equipment {
-  height: 55px;
+main > div .info .container .equipment .choice {
+  height: 56px;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+main > div .info .container .equipment .choice h2 {
+  font-weight: bold;
+  line-height: 56px;
+  color: #363636;
+}
+main > div .info .container .equipment .choice div {
+  width: 120px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+main > div .info .container .equipment .choice div .now {
+  font-size: 20px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: bolder;
+  text-align: right;
+}
+main > div .info .container .equipment .choice div .was {
+  font-size: 14px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  text-align: right;
+  text-decoration: line-through;
+}
+main > div .info .container .equipment .choice:active {
+  background-color: dimgray;
+}
+main > div .info .container .equipment .choice:active h2, main > div .info .container .equipment .choice:active .now {
+  color: white;
+}
+main > div .info .container .equipment .choice:active .was {
+  color: #cccccc;
+}
+main > div .info .container .equipment .choice:active::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  border-left: 20px solid dimgray;
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent;
+}
+main > div .info .container .equipment p {
+  font-size: 12px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  padding-left: 20px;
+  line-height: 12px;
+}
+main > div .info .container .equipment .avalibility {
+  font-size: 18px;
+  color: #22B110;
+  font-family: "Inter-Regular", Helvetica;
+  padding-left: 50px;
+  line-height: 12px;
+}
+main > div .info .container .equipment .buttons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px;
+}
+main > div .info .container .equipment .buttons button {
+  width: 48%;
+  height: 40px;
+  text-align: center;
+  border: none;
+}
+main > div .info .container .equipment .buttons .buy {
+  font-size: 15px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  background-color: #ffd800;
+}
+main > div .info .container .equipment .buttons .buy:hover {
+  background-color: #ffe137;
+}
+main > div .info .container .equipment .buttons .one_click {
+  font-size: 15px;
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  background-color: #363636;
+}
+main > div .info .container .equipment .buttons .one_click:hover {
+  background-color: #5a5a5a;
+}
+main > div .info .container .set {
+  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+  border: rgb(200, 200, 200) 0.5px solid;
+  width: 39%;
+  padding-top: 25px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 2px;
+  overflow-y: scroll;
+}
+main > div .info .container .set h2 {
+  font-size: 20px;
+  color: orangered;
+  font-family: "Inter-Regular", Helvetica;
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+main > div .info .container .set h2:first-child {
+  color: grey;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+main > div .info .container .set .card {
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+}
+main > div .info .container .set .card .image {
+  flex: 1;
+  margin-right: 10px;
+  position: relative;
   align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+main > div .info .container .set .card .image img {
+  width: 100%;
+}
+main > div .info .container .set .card .image .sale {
+  position: absolute;
+  background-color: orangered;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+}
+main > div .info .container .set .card .right {
+  flex: 2;
+}
+main > div .info .container .set .card .right p {
+  font-size: 15px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+}
+main > div .info .container .set .card .right .num_price {
+  display: flex;
+  justify-content: space-between;
+}
+main > div .info .container .set .card .right .num_price .num {
+  font-size: 15px;
+  color: grey;
+  font-family: "Inter-Regular", Helvetica;
+}
+main > div .info .container .set .card .right .num_price .price {
+  width: 80px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+}
+main > div .info .container .set .card .right .num_price .price .now {
+  font-size: 15px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: bolder;
+  text-align: right;
+}
+main > div .info .container .set .card .right .num_price .price .was {
+  font-size: 15px;
+  color: grey;
+  font-family: "Inter-Regular", Helvetica;
+  text-align: right;
+  text-decoration: line-through;
+}
+main > div .info .container .set .plus {
+  font-size: 40px;
+  color: orangered;
+  font-family: "Inter-Regular", Helvetica;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+main > div .info .other {
+  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+  border: rgb(200, 200, 200) 0.5px solid;
+  margin: 15px;
+  margin-left: 0;
+  width: 100%;
+  height: 320px;
+}
+main > div .info .other .blocks {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 100px;
+  width: 100%;
+  border-bottom: solid 1px grey;
+  display: flex;
+}
+main > div .info .other .blocks .block {
+  margin-left: 20px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+main > div .info .other .blocks .block svg {
+  width: 50px;
+  height: 50px;
+}
+main > div .info .other .blocks .block span {
+  font-size: 16px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: normal;
+}
+main > div .info .other .blocks .block:active {
+  border-color: #363636;
+  background-color: #ffd800;
+}
+main > div .info .other .blocks .block:active .other-info-box {
   background-color: red;
 }
-main > div .info .equipment h2 {
+main > div .info .other .other-info-box {
+  padding-left: 20px;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+}
+main > div .info .other .other-info-box h2 {
+  font-size: 20px;
+  color: grey;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: normal;
+}
+main > div .info .other .other-info-box ul li {
+  font-size: 15px;
+  color: #363636;
+  font-family: "Inter-Regular", Helvetica;
+  margin-bottom: 10px;
+}
+main > div .info .other .other-info-box ul li span {
   font-weight: bold;
-  line-height: 23px;
-  align-items: center;
+}
+main > div .info .other .other-info-box:nth-child(1) {
+  z-index: 1;
+}
+main > div .info .other .other-info-box:nth-child(2) {
+  z-index: 2;
+}
+main > div .info .other .other-info-box:nth-child(3) {
+  z-index: 1;
+}
+main > div .info .other .other-info-box:nth-child(4) {
+  z-index: 0;
 }/*# sourceMappingURL=product-page.css.map */

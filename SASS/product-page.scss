@@ -12,23 +12,26 @@ body{
 main{
     width: 1350px;
     margin: 0 auto;
-    padding-top: 35px;
+    padding-top: 20px;
 
     h1{
         @include text-style(30px);
-        padding-left: 18px;
+        padding-left: 22px;
+        margin: 0;
+        margin-bottom: 15px;
+        font-weight: normal;
     }
 
     >div{
         width: 100%;
         display: flex;
-        align-items: flex-start;
+        height: 790px;
 
         .photos{
-            box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
-            border: $card_border 0.5px solid;
-            flex: 5;
-            padding: 25px;
+            @include box-style;
+            margin: 0;
+            width: 40%;
+            padding: 20px;
             position: relative;
             
             .img-cont{
@@ -50,8 +53,8 @@ main{
                 flex-wrap: wrap;
 
                 .img-cont{
-                    height:100px;
-                    width: 70px;
+                    height:80px;
+                    width: 65px;
                     margin-right: 15px;
                     margin-bottom: 0;
 
@@ -63,38 +66,331 @@ main{
 
         }
 
+        // =======================================================
+
         .info{
             margin-left: 15px;
-            flex: 5;
+            width: 60%;
             height: 300px;
-            box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
-            border: $card_border 0.5px solid;
-            padding: 25px;
+
+
             position: relative;
 
-            h2{
-                @include text-style(23px);
-                margin: 0;
-                margin-bottom:  20px;
-            }
-
-            .equipment{
-                height: 55px;
-                padding-left: 15px;
-                padding-right: 15px;
+            .container{
                 display: flex;
                 justify-content: space-between;
-                align-items: center;
-                background-color: red;
+                height: 450px;
 
-                h2{
-                    font-weight: bold;
-                    line-height: 23px;
-                    align-items: center;
+                .equipment{
+                    box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+                    border: $card_border 0.5px solid;
+                    width: 60%;
+                    padding-top: 25px;
+
+                    h2{
+                        @include text-style(23px);
+                        margin: 0;
+                        margin-bottom: 20px;
+                        padding-left: 25px;
+                        font-weight:normal;
+                    }
+
+                    .choice{
+                        height: 56px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        display: flex;
+                        justify-content: space-between;
+                        position: relative;
+
+                        h2{
+                            font-weight: bold;
+                            line-height: 56px;
+                            color: $peripheralCol;
+                        }
+
+                        div{
+                            width: 120px;
+                            height: 56px;
+                            display: flex;
+                            flex-direction: column;
+                            padding-top: 10px;
+
+                            .now{
+                                @include text-style(20px, $peripheralCol);
+                                font-weight: bolder;
+                                text-align: right;
+                            }
+
+                            .was{
+                                @include text-style(14px, $peripheralCol);
+                                text-align: right;
+                                text-decoration: line-through;
+                            }
+                        }
+
+                        &:active{
+                            background-color: lighten($peripheralCol, 20);
+
+                            h2, .now{
+                                color: white;
+                            }
+
+                            .was{
+                                color: darken(white, 20);
+                            }
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                top: 0px; 
+                                right: -20px; 
+                                border-left: 20px solid lighten($peripheralCol, 20); 
+                                border-top: 28px solid transparent;
+                                border-bottom: 28px solid transparent;
+                            }
+                        }
+                    }
+
+                    p{
+                        @include text-style(12px, $peripheralCol);
+                        padding-left: 20px;
+                        line-height: 12px;
+
+                    }
+
+                    .avalibility{
+                        @include text-style(18px, $avalible);
+                        padding-left: 50px;
+                        line-height: 12px;
+                    }
+
+                    .buttons{
+                        display: flex;
+                        justify-content: space-between;
+                        position: relative;
+                        padding: 20px;  
+
+                        button{
+                            width: 48%;
+                            height: 40px;
+                            text-align: center;
+                            border: none;
+                        }
+
+
+                        .buy{
+                        @include text-style(15px);
+
+                            background-color: $accentCol;
+
+                            &:hover{
+                                background-color: #ffe137;
+                            }
+                        }
+
+                        .one_click{
+                            @include text-style(15px, white);
+
+                            background-color: $peripheralCol;
+
+                            &:hover{
+                                background-color: #5a5a5a;
+                            }
+                        }
+                    }
+
+
+                }
+
+                .set{
+                    box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+                    border: $card_border 0.5px solid;
+                    width: 39%;
+                    padding-top: 25px;
+                    margin-left: 15px;
+                    padding-left: 10px;
+                    padding-right: 2px;
+                    
+                    overflow-y: scroll;
+
+
+                    h2{
+                        @include text-style(20px, orangered);
+                        margin: 0;
+                        font-weight: normal;
+                        margin-bottom: 10px;
+                    }
+
+                    h2:first-child{
+                        color: grey;
+                        font-weight: bolder;
+                        margin-bottom: 30px;
+                        padding-left: 15px;
+                    }
+
+
+                    .card{
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        margin-bottom: 20px;
+
+
+                        .image{
+                            flex: 1;
+                            margin-right: 10px;
+                            position: relative;
+                            align-items: center;
+                            display: flex;
+                            overflow: hidden;
+
+                            img{
+                                width: 100%;
+                            }
+
+                            .sale{
+                                position: absolute;
+                                background-color: orangered;
+                                top: 0;
+                                right: 0;
+                                border-radius: 5px;
+                                padding: 5px;
+                                @include text-style(12px, white);
+                            }
+                        }
+
+                        .right{
+                            flex: 2;
+                            p{
+                                @include text-style(15px);
+                            }
+
+
+                            .num_price{
+                                display: flex;
+                                justify-content: space-between;
+                                .num{
+                                    @include text-style(15px, grey);
+                                }
+
+
+                                .price{
+
+                                    width: 80px;
+                                    height: 35px;
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    .now{
+                                        @include text-style(15px, $peripheralCol);
+                                        font-weight: bolder;
+                                        text-align: right;
+                                    }
+
+                                    .was{
+                                        @include text-style(15px, grey);
+                                        text-align: right;
+                                        text-decoration: line-through;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+
+                    .plus{
+                        @include text-style(40px, orangered);
+                        display: inline-block;
+                        text-align: center;
+                        width: 100%;
+                    }
                 }
             }
 
+            .other{
+                @include box-style;
+                margin-left: 0;
+                width: 100%;
+                height: 320px;
+                
+                .blocks{
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    height: 100px;
+                    width: 100%;
+                    border-bottom: solid 1px grey;
+
+                    display: flex;
+                    
+                    .block{
+                        margin-left: 20px;
+                        border: solid 1px grey;
+                        border-radius: 5px;
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        padding: 10px;
+
+                        svg{
+                            width: 50px;
+                            height: 50px;
+                        }
+
+                        span{
+                            @include text-style(16px, $peripheralCol);
+                            font-weight: normal;
+                        }
+
+                        &:active{
+                            border-color: $peripheralCol;
+                            background-color: $accentCol;
+
+                            .other-info-box{
+                                background-color: red;
+                            }
+                        }
+
+                    }
+                    
+                }
+
+                .other-info-box{
+                    padding-left: 20px;
+                    position: absolute;
+                    background-color: white;
+                    width: 100%;
+                    h2{
+                        @include text-style(20px, grey);
+                        font-weight: normal;
+                    }
+
+                    ul{
+                        li{
+                            @include text-style(15px);
+                            margin-bottom: 10px;
+                            span{
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+                    &:nth-child(1){
+                        z-index: 1;
+                    }
+                    &:nth-child(2){
+                        z-index: 2;
+                    }
+                    &:nth-child(3){
+                        z-index: 1;
+                    }
+                    &:nth-child(4){
+                        z-index: 0;
+                    }
+                }
+            }
         }
     }
-
 }
