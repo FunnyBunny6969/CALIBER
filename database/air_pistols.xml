@@ -1,0 +1,76 @@
+<pistols>
+
+
+<pistol>
+    <name>Пневматический пистолет МР-654К-20 (ПМ, Макарова) 4,5 мм</name>
+    <avalibility>в наличии</avalibility>
+    <price>650</price>
+    <ammunition>шарики ВВ</ammunition>
+    <blowback>нет</blowback>
+    <body_material>металл</body_material>
+    <type>газобаллонный</type>
+    <muzzle_velocity_m_s>120</muzzle_velocity_m_s>
+    <caliber_mm>4.5</caliber_mm>
+    <combat_prototype>пистолет Макарова</combat_prototype>
+    <barrel_type>нарезной</barrel_type>
+    <scope_mount>нет</scope_mount>
+    <energy_source>CO2 баллончик 12 гр</energy_source>
+    <firing_mode>полуавтоматический</firing_mode>
+    <magazine_capacity>13</magazine_capacity>
+    <bolt>Подвижный</bolt>
+    <barrel_delay>нет</barrel_delay>
+    <form_factor>пистолет</form_factor>
+    <safety>есть</safety>
+    <power>до 3 Дж</power>
+    <charge_count>многозарядный</charge_count>
+    <sight>нерегулируемый целик и мушка</sight>
+    <magazine_type>полноразмерный</magazine_type>
+    <trigger_mechanism>двойного действия (DA/SA)</trigger_mechanism>
+    <weight_kg>0.73</weight_kg>
+    <overall_length_mm>169</overall_length_mm>
+    <barrel_length_cm>9.6</barrel_length_cm>
+    <dimensions>169х145х35мм</dimensions>
+    <barrel_material>оружейная сталь</barrel_material>
+    <color>чёрный</color>
+    <manufacturer>Baikal (г.Ижевск Россия)</manufacturer>
+    <country_of_production>Россия</country_of_production>
+    <warranty_months>6</warranty_months>
+</pistol>
+
+<pistol>
+    <name>EBENb</name>
+    <avalibility>EBENb</avalibility>
+    <price>EBENb</price>
+    <ammunition>EBENb</ammunition>
+    <blowback>EBENb</blowback>
+    <body_material>EBENb</body_material>
+    <type>EBENb</type>
+    <muzzle_velocity_m_s>EBENb</muzzle_velocity_m_s>
+    <caliber_mm>EBENb</caliber_mm>
+    <combat_prototype>EBENb</combat_prototype>
+    <barrel_type>EBENb</barrel_type>
+    <scope_mount>EBENb</scope_mount>
+    <energy_source>EBENb</energy_source>
+    <firing_mode>EBENb</firing_mode>
+    <magazine_capacity>EBENb</magazine_capacity>
+    <bolt>EBENb</bolt>
+    <barrel_delay>EBENb</barrel_delay>
+    <form_factor>EBENb</form_factor>
+    <safety>EBENb</safety>
+    <power>EBENb</power>
+    <charge_count>EBENb</charge_count>
+    <sight>EBENb</sight>
+    <magazine_type>EBENb</magazine_type>
+    <trigger_mechanism>EBENb</trigger_mechanism>
+    <weight_kg>EBENb</weight_kg>
+    <overall_length_mm>EBENb</overall_length_mm>
+    <barrel_length_cm>EBENb</barrel_length_cm>
+    <dimensions>EBENb</dimensions>
+    <barrel_material>EBENb</barrel_material>
+    <color>EBENb</color>
+    <manufacturer>EBENb</manufacturer>
+    <country_of_production>EBENb</country_of_production>
+    <warranty_months>EBENb</warranty_months>
+</pistol>
+
+</pistols>
