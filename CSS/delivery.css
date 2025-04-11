@@ -1,0 +1,27 @@
+.main-cont {
+  box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+  border: rgb(200, 200, 200) 0.5px solid;
+  margin: 15px;
+  padding: 20px;
+}
+.main-cont h2 {
+  font-size: 30px;
+  color: #4f4f4f;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: normal;
+  margin: 0;
+}
+.main-cont ul li {
+  font-size: 15px;
+  color: #424242;
+  font-family: "Inter-Regular", Helvetica;
+  margin-bottom: 10px;
+}
+.main-cont ul li span {
+  font-weight: bold;
+}
+.main-cont p {
+  font-size: 15px;
+  color: #424242;
+  font-family: "Inter-Regular", Helvetica;
+}/*# sourceMappingURL=delivery.css.map */

@@ -1,0 +1,25 @@
+@import 'common';
+
+.main-cont{
+    @include box-style;
+    padding: 20px;
+    h2{
+        @include text-style(30px, lighten($peripheralCol, 5));
+        font-weight: normal;
+        margin: 0;
+    }
+
+    ul{
+        li{
+            @include text-style(15px);
+            margin-bottom: 10px;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+
+    p{
+        @include text-style(15px);
+    }
+}
