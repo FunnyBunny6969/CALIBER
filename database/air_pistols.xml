@@ -2,6 +2,10 @@
 
 
 <pistol>
+    <images>
+        <image id="1">https://example.com/image1.jpg</image>
+        <image id="2">https://example.com/image2.jpg</image>
+    </images>
     <name>Пневматический пистолет МР-654К-20 (ПМ, Макарова) 4,5 мм</name>
     <avalibility>в наличии</avalibility>
     <price>650</price>
