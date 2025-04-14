@@ -902,7 +902,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>140</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -1088,7 +1088,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>есть, Weaver/Picatinny 22 мм</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -1884,7 +1884,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>140</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -1940,7 +1940,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -2002,7 +2002,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -4796,7 +4796,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>132</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>есть, Weaver/Picatinny 22 мм</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -4888,7 +4888,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -5310,7 +5310,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>128</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -5762,7 +5762,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -6557,7 +6557,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>100</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -6794,7 +6794,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -7351,7 +7351,7 @@
 	</images>
 </pistol>
 <pistol>
-	<name>Пневматический пистолет Umarex S&W M&P 45 4,5 мм</name>
+	<name>Пневматический пистолет Umarex S&amp;W M&amp;P 45 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<price>490 BYN</price>
 	<installment>Цена в рассрочку от 81.7 BYN/месяц</installment>
@@ -7361,7 +7361,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>112</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -8063,7 +8063,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -8319,7 +8319,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -8387,7 +8387,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>130</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
