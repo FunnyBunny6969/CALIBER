@@ -1,23 +1,24 @@
+<pistols>
 <pistol>
 	<name>Пневматический пистолет МР-654К-20 (ПМ, Макарова) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>650</new_price>
-		<new_price id=1>695</new_price>
-		<new_price id=2>737</new_price>
-		<new_price id=3>791</new_price>
-		<old_price id=0>651</old_price>
-		<old_price id=1>701</old_price>
-		<old_price id=2>760</old_price>
-		<old_price id=3>835</old_price>
+		<new_price id="0">650</new_price>
+		<new_price id="1">695</new_price>
+		<new_price id="2">737</new_price>
+		<new_price id="3">791</new_price>
+		<old_price id="0">651</old_price>
+		<old_price id="1">701</old_price>
+		<old_price id="2">760</old_price>
+		<old_price id="3">835</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 108.33 BYN/месяц</installment>
 	<prod_code>18954</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -63,22 +64,22 @@
 	<name>Пневматический пистолет Stalker S1911RD 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>350</new_price>
-		<new_price id=1>395</new_price>
-		<new_price id=2>437</new_price>
-		<new_price id=3>491</new_price>
-		<old_price id=0>351</old_price>
-		<old_price id=1>401</old_price>
-		<old_price id=2>460</old_price>
-		<old_price id=3>535</old_price>
+		<new_price id="0">350</new_price>
+		<new_price id="1">395</new_price>
+		<new_price id="2">437</new_price>
+		<new_price id="3">491</new_price>
+		<old_price id="0">351</old_price>
+		<old_price id="1">401</old_price>
+		<old_price id="2">460</old_price>
+		<old_price id="3">535</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 58.33 BYN/месяц</installment>
 	<prod_code>18899</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -118,22 +119,22 @@
 	<name>Пневматический пистолет Stalker S92ME 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>280</new_price>
-		<new_price id=1>325</new_price>
-		<new_price id=2>367</new_price>
-		<new_price id=3>421</new_price>
-		<old_price id=0>281</old_price>
-		<old_price id=1>331</old_price>
-		<old_price id=2>390</old_price>
-		<old_price id=3>465</old_price>
+		<new_price id="0">280</new_price>
+		<new_price id="1">325</new_price>
+		<new_price id="2">367</new_price>
+		<new_price id="3">421</new_price>
+		<old_price id="0">281</old_price>
+		<old_price id="1">331</old_price>
+		<old_price id="2">390</old_price>
+		<old_price id="3">465</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 46.67 BYN/месяц</installment>
 	<prod_code>18867</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -179,22 +180,22 @@
 	<name>Пневматический пистолет Borner C41 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>455</new_price>
-		<new_price id=1>500</new_price>
-		<new_price id=2>542</new_price>
-		<new_price id=3>596</new_price>
-		<old_price id=0>456</old_price>
-		<old_price id=1>506</old_price>
-		<old_price id=2>565</old_price>
-		<old_price id=3>640</old_price>
+		<new_price id="0">455</new_price>
+		<new_price id="1">500</new_price>
+		<new_price id="2">542</new_price>
+		<new_price id="3">596</new_price>
+		<old_price id="0">456</old_price>
+		<old_price id="1">506</old_price>
+		<old_price id="2">565</old_price>
+		<old_price id="3">640</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 75.83 BYN/месяц</installment>
 	<prod_code>18888</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -238,22 +239,22 @@
 	<name>Пневматический пистолет Borner PM-X 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>240</new_price>
-		<new_price id=1>285</new_price>
-		<new_price id=2>327</new_price>
-		<new_price id=3>381</new_price>
-		<old_price id=0>241</old_price>
-		<old_price id=1>291</old_price>
-		<old_price id=2>350</old_price>
-		<old_price id=3>425</old_price>
+		<new_price id="0">240</new_price>
+		<new_price id="1">285</new_price>
+		<new_price id="2">327</new_price>
+		<new_price id="3">381</new_price>
+		<old_price id="0">241</old_price>
+		<old_price id="1">291</old_price>
+		<old_price id="2">350</old_price>
+		<old_price id="3">425</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 40.00 BYN/месяц</installment>
 	<prod_code>19580</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -299,22 +300,22 @@
 	<name>Пневматический пистолет МР-654К-32 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>700</new_price>
-		<new_price id=1>745</new_price>
-		<new_price id=2>787</new_price>
-		<new_price id=3>841</new_price>
-		<old_price id=0>701</old_price>
-		<old_price id=1>751</old_price>
-		<old_price id=2>810</old_price>
-		<old_price id=3>885</old_price>
+		<new_price id="0">700</new_price>
+		<new_price id="1">745</new_price>
+		<new_price id="2">787</new_price>
+		<new_price id="3">841</new_price>
+		<old_price id="0">701</old_price>
+		<old_price id="1">751</old_price>
+		<old_price id="2">810</old_price>
+		<old_price id="3">885</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 116.67 BYN/месяц</installment>
 	<prod_code>18974</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -363,22 +364,22 @@
 	<name>Пневматический пистолет Stalker S17 (аналог Glock17) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>230</new_price>
-		<new_price id=1>275</new_price>
-		<new_price id=2>317</new_price>
-		<new_price id=3>371</new_price>
-		<old_price id=0>231</old_price>
-		<old_price id=1>281</old_price>
-		<old_price id=2>340</old_price>
-		<old_price id=3>415</old_price>
+		<new_price id="0">230</new_price>
+		<new_price id="1">275</new_price>
+		<new_price id="2">317</new_price>
+		<new_price id="3">371</new_price>
+		<old_price id="0">231</old_price>
+		<old_price id="1">281</old_price>
+		<old_price id="2">340</old_price>
+		<old_price id="3">415</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 38.33 BYN/месяц</installment>
 	<prod_code>18980</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -425,19 +426,19 @@
 	<name>Пневматический пистолет ИЖ-53М (МР-53) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>280</new_price>
-		<new_price id=1>340</new_price>
-		<new_price id=2>370</new_price>
-		<old_price id=0>281</old_price>
-		<old_price id=1>355</old_price>
-		<old_price id=2>395</old_price>
+		<new_price id="0">280</new_price>
+		<new_price id="1">340</new_price>
+		<new_price id="2">370</new_price>
+		<old_price id="0">281</old_price>
+		<old_price id="1">355</old_price>
+		<old_price id="2">395</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 46.67 BYN/месяц</installment>
 	<prod_code>18905</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -473,22 +474,22 @@
 	<name>Пневматический пистолет Borner ПМ 49 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>400</new_price>
-		<new_price id=1>445</new_price>
-		<new_price id=2>487</new_price>
-		<new_price id=3>541</new_price>
-		<old_price id=0>401</old_price>
-		<old_price id=1>451</old_price>
-		<old_price id=2>510</old_price>
-		<old_price id=3>585</old_price>
+		<new_price id="0">400</new_price>
+		<new_price id="1">445</new_price>
+		<new_price id="2">487</new_price>
+		<new_price id="3">541</new_price>
+		<old_price id="0">401</old_price>
+		<old_price id="1">451</old_price>
+		<old_price id="2">510</old_price>
+		<old_price id="3">585</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 66.67 BYN/месяц</installment>
 	<prod_code>19592</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -535,22 +536,22 @@
 	<name>Пневматический пистолет Umarex Glock-17 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>1200</new_price>
-		<new_price id=1>1245</new_price>
-		<new_price id=2>1287</new_price>
-		<new_price id=3>1341</new_price>
-		<old_price id=0>1201</old_price>
-		<old_price id=1>1251</old_price>
-		<old_price id=2>1310</old_price>
-		<old_price id=3>1385</old_price>
+		<new_price id="0">1200</new_price>
+		<new_price id="1">1245</new_price>
+		<new_price id="2">1287</new_price>
+		<new_price id="3">1341</new_price>
+		<old_price id="0">1201</old_price>
+		<old_price id="1">1251</old_price>
+		<old_price id="2">1310</old_price>
+		<old_price id="3">1385</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 200.00 BYN/месяц</installment>
 	<prod_code>18936</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -592,22 +593,22 @@
 	<name>Пневматический пистолет Umarex ПМ Ultra 4,5 мм с блоубэком</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>590</new_price>
-		<new_price id=1>635</new_price>
-		<new_price id=2>677</new_price>
-		<new_price id=3>731</new_price>
-		<old_price id=0>591</old_price>
-		<old_price id=1>641</old_price>
-		<old_price id=2>700</old_price>
-		<old_price id=3>775</old_price>
+		<new_price id="0">590</new_price>
+		<new_price id="1">635</new_price>
+		<new_price id="2">677</new_price>
+		<new_price id="3">731</new_price>
+		<old_price id="0">591</old_price>
+		<old_price id="1">641</old_price>
+		<old_price id="2">700</old_price>
+		<old_price id="3">775</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 98.33 BYN/месяц</installment>
 	<prod_code>19597</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -655,22 +656,22 @@
 	<name>Пневматический пистолет Borner W119 (Glock 19) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>510</new_price>
-		<new_price id=1>555</new_price>
-		<new_price id=2>597</new_price>
-		<new_price id=3>651</new_price>
-		<old_price id=0>511</old_price>
-		<old_price id=1>561</old_price>
-		<old_price id=2>620</old_price>
-		<old_price id=3>695</old_price>
+		<new_price id="0">510</new_price>
+		<new_price id="1">555</new_price>
+		<new_price id="2">597</new_price>
+		<new_price id="3">651</new_price>
+		<old_price id="0">511</old_price>
+		<old_price id="1">561</old_price>
+		<old_price id="2">620</old_price>
+		<old_price id="3">695</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 85.00 BYN/месяц</installment>
 	<prod_code>19589</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -714,22 +715,22 @@
 	<name>Пневматический пистолет Stalker S92PL 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>220</new_price>
-		<new_price id=1>265</new_price>
-		<new_price id=2>307</new_price>
-		<new_price id=3>361</new_price>
-		<old_price id=0>221</old_price>
-		<old_price id=1>271</old_price>
-		<old_price id=2>330</old_price>
-		<old_price id=3>405</old_price>
+		<new_price id="0">220</new_price>
+		<new_price id="1">265</new_price>
+		<new_price id="2">307</new_price>
+		<new_price id="3">361</new_price>
+		<old_price id="0">221</old_price>
+		<old_price id="1">271</old_price>
+		<old_price id="2">330</old_price>
+		<old_price id="3">405</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 36.67 BYN/месяц</installment>
 	<prod_code>18858</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -777,22 +778,22 @@
 	<name>Пневматический пистолет Stalker S84 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>280</new_price>
-		<new_price id=1>325</new_price>
-		<new_price id=2>367</new_price>
-		<new_price id=3>421</new_price>
-		<old_price id=0>281</old_price>
-		<old_price id=1>331</old_price>
-		<old_price id=2>390</old_price>
-		<old_price id=3>465</old_price>
+		<new_price id="0">280</new_price>
+		<new_price id="1">325</new_price>
+		<new_price id="2">367</new_price>
+		<new_price id="3">421</new_price>
+		<old_price id="0">281</old_price>
+		<old_price id="1">331</old_price>
+		<old_price id="2">390</old_price>
+		<old_price id="3">465</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 46.67 BYN/месяц</installment>
 	<prod_code>18903</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -842,21 +843,21 @@
 	<name>Пневматический пистолет Borner Super Sport 703 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>690</new_price>
-		<new_price id=1>735</new_price>
-		<old_price id=0>691</old_price>
-		<old_price id=1>741</old_price>
+		<new_price id="0">690</new_price>
+		<new_price id="1">735</new_price>
+		<old_price id="0">691</old_price>
+		<old_price id="1">741</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 115.00 BYN/месяц</installment>
 	<prod_code>19593</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>140</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -947,22 +948,22 @@
 	<name>Пневматический пистолет Umarex Glock 19 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>800</new_price>
-		<new_price id=1>845</new_price>
-		<new_price id=2>887</new_price>
-		<new_price id=3>941</new_price>
-		<old_price id=0>801</old_price>
-		<old_price id=1>851</old_price>
-		<old_price id=2>910</old_price>
-		<old_price id=3>985</old_price>
+		<new_price id="0">800</new_price>
+		<new_price id="1">845</new_price>
+		<new_price id="2">887</new_price>
+		<new_price id="3">941</new_price>
+		<old_price id="0">801</old_price>
+		<old_price id="1">851</old_price>
+		<old_price id="2">910</old_price>
+		<old_price id="3">985</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 133.33 BYN/месяц</installment>
 	<prod_code>18860</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1010,27 +1011,27 @@
 	<name>Пневматический револьвер Borner Super Sport 708 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>580</new_price>
-		<new_price id=1>625</new_price>
-		<new_price id=2>667</new_price>
-		<new_price id=3>721</new_price>
-		<old_price id=0>581</old_price>
-		<old_price id=1>631</old_price>
-		<old_price id=2>690</old_price>
-		<old_price id=3>765</old_price>
+		<new_price id="0">580</new_price>
+		<new_price id="1">625</new_price>
+		<new_price id="2">667</new_price>
+		<new_price id="3">721</new_price>
+		<old_price id="0">581</old_price>
+		<old_price id="1">631</old_price>
+		<old_price id="2">690</old_price>
+		<old_price id="3">765</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 96.67 BYN/месяц</installment>
 	<prod_code>19586</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>есть, Weaver/Picatinny 22 мм</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -1075,22 +1076,22 @@
 	<name>Пневматический пистолет Stalker STC (Colt 1911A1) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>650</new_price>
-		<new_price id=1>695</new_price>
-		<new_price id=2>737</new_price>
-		<new_price id=3>791</new_price>
-		<old_price id=0>651</old_price>
-		<old_price id=1>701</old_price>
-		<old_price id=2>760</old_price>
-		<old_price id=3>835</old_price>
+		<new_price id="0">650</new_price>
+		<new_price id="1">695</new_price>
+		<new_price id="2">737</new_price>
+		<new_price id="3">791</new_price>
+		<old_price id="0">651</old_price>
+		<old_price id="1">701</old_price>
+		<old_price id="2">760</old_price>
+		<old_price id="3">835</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 108.33 BYN/месяц</installment>
 	<prod_code>19603</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1131,22 +1132,22 @@
 	<name>Пневматический пистолет Stalker STB 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>700</new_price>
-		<new_price id=1>745</new_price>
-		<new_price id=2>787</new_price>
-		<new_price id=3>841</new_price>
-		<old_price id=0>701</old_price>
-		<old_price id=1>751</old_price>
-		<old_price id=2>810</old_price>
-		<old_price id=3>885</old_price>
+		<new_price id="0">700</new_price>
+		<new_price id="1">745</new_price>
+		<new_price id="2">787</new_price>
+		<new_price id="3">841</new_price>
+		<old_price id="0">701</old_price>
+		<old_price id="1">751</old_price>
+		<old_price id="2">810</old_price>
+		<old_price id="3">885</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 116.67 BYN/месяц</installment>
 	<prod_code>19602</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1192,22 +1193,22 @@
 	<name>Пневматический пистолет Атаман M1-У</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>450</new_price>
-		<new_price id=1>495</new_price>
-		<new_price id=2>537</new_price>
-		<new_price id=3>591</new_price>
-		<old_price id=0>451</old_price>
-		<old_price id=1>501</old_price>
-		<old_price id=2>560</old_price>
-		<old_price id=3>635</old_price>
+		<new_price id="0">450</new_price>
+		<new_price id="1">495</new_price>
+		<new_price id="2">537</new_price>
+		<new_price id="3">591</new_price>
+		<old_price id="0">451</old_price>
+		<old_price id="1">501</old_price>
+		<old_price id="2">560</old_price>
+		<old_price id="3">635</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 75.00 BYN/месяц</installment>
 	<prod_code>19583</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный, PCP (с накачкой)</type>
 	<caliber>4.5</caliber>
@@ -1253,22 +1254,22 @@
 	<name>Пневматический пистолет Borner Panther 801 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>600</new_price>
-		<new_price id=1>645</new_price>
-		<new_price id=2>687</new_price>
-		<new_price id=3>741</new_price>
-		<old_price id=0>601</old_price>
-		<old_price id=1>651</old_price>
-		<old_price id=2>710</old_price>
-		<old_price id=3>785</old_price>
+		<new_price id="0">600</new_price>
+		<new_price id="1">645</new_price>
+		<new_price id="2">687</new_price>
+		<new_price id="3">741</new_price>
+		<old_price id="0">601</old_price>
+		<old_price id="1">651</old_price>
+		<old_price id="2">710</old_price>
+		<old_price id="3">785</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 100.00 BYN/месяц</installment>
 	<prod_code>18882</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1312,19 +1313,19 @@
 	<name>Пневматический пистолет МР-651 КС 4,5 мм металл</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>320</new_price>
-		<new_price id=1>380</new_price>
-		<new_price id=2>410</new_price>
-		<old_price id=0>321</old_price>
-		<old_price id=1>395</old_price>
-		<old_price id=2>435</old_price>
+		<new_price id="0">320</new_price>
+		<new_price id="1">380</new_price>
+		<new_price id="2">410</new_price>
+		<old_price id="0">321</old_price>
+		<old_price id="1">395</old_price>
+		<old_price id="2">435</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 53.33 BYN/месяц</installment>
 	<prod_code>18868</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1369,22 +1370,22 @@
 	<name>Пневматический пистолет Borner TT-X 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>280</new_price>
-		<new_price id=1>325</new_price>
-		<new_price id=2>367</new_price>
-		<new_price id=3>421</new_price>
-		<old_price id=0>281</old_price>
-		<old_price id=1>331</old_price>
-		<old_price id=2>390</old_price>
-		<old_price id=3>465</old_price>
+		<new_price id="0">280</new_price>
+		<new_price id="1">325</new_price>
+		<new_price id="2">367</new_price>
+		<new_price id="3">421</new_price>
+		<old_price id="0">281</old_price>
+		<old_price id="1">331</old_price>
+		<old_price id="2">390</old_price>
+		<old_price id="3">465</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 46.67 BYN/месяц</installment>
 	<prod_code>18947</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1432,19 +1433,19 @@
 	<name>Пневматический пистолет МР-651-07 КС 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>400</new_price>
-		<new_price id=1>460</new_price>
-		<new_price id=2>490</new_price>
-		<old_price id=0>401</old_price>
-		<old_price id=1>475</old_price>
-		<old_price id=2>515</old_price>
+		<new_price id="0">400</new_price>
+		<new_price id="1">460</new_price>
+		<new_price id="2">490</new_price>
+		<old_price id="0">401</old_price>
+		<old_price id="1">475</old_price>
+		<old_price id="2">515</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 66.67 BYN/месяц</installment>
 	<prod_code>18871</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1495,22 +1496,22 @@
 	<name>Пневматический пистолет Stalker STCT (Colt 1911 Tactical)</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>700</new_price>
-		<new_price id=1>745</new_price>
-		<new_price id=2>787</new_price>
-		<new_price id=3>841</new_price>
-		<old_price id=0>701</old_price>
-		<old_price id=1>751</old_price>
-		<old_price id=2>810</old_price>
-		<old_price id=3>885</old_price>
+		<new_price id="0">700</new_price>
+		<new_price id="1">745</new_price>
+		<new_price id="2">787</new_price>
+		<new_price id="3">841</new_price>
+		<old_price id="0">701</old_price>
+		<old_price id="1">751</old_price>
+		<old_price id="2">810</old_price>
+		<old_price id="3">885</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 116.67 BYN/месяц</installment>
 	<prod_code>19619</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1553,22 +1554,22 @@
 	<name>Пневматический пистолет Borner ПМ 49 Blowback</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>590</new_price>
-		<new_price id=1>635</new_price>
-		<new_price id=2>677</new_price>
-		<new_price id=3>731</new_price>
-		<old_price id=0>591</old_price>
-		<old_price id=1>641</old_price>
-		<old_price id=2>700</old_price>
-		<old_price id=3>775</old_price>
+		<new_price id="0">590</new_price>
+		<new_price id="1">635</new_price>
+		<new_price id="2">677</new_price>
+		<new_price id="3">731</new_price>
+		<old_price id="0">591</old_price>
+		<old_price id="1">641</old_price>
+		<old_price id="2">700</old_price>
+		<old_price id="3">775</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 98.33 BYN/месяц</installment>
 	<prod_code>19755</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1662,19 +1663,19 @@
 	<name>Пневматический пистолет Umarex Beretta M92 FS XX-TREME с глушителем, коллиматором 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>1490</new_price>
-		<new_price id=1>1550</new_price>
-		<new_price id=2>1580</new_price>
-		<old_price id=0>1491</old_price>
-		<old_price id=1>1565</old_price>
-		<old_price id=2>1605</old_price>
+		<new_price id="0">1490</new_price>
+		<new_price id="1">1550</new_price>
+		<new_price id="2">1580</new_price>
+		<old_price id="0">1491</old_price>
+		<old_price id="1">1565</old_price>
+		<old_price id="2">1605</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 248.33 BYN/месяц</installment>
 	<prod_code>18918</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1719,19 +1720,19 @@
 	<name>Пневматический пистолет Umarex Colt Government 1911 A1 Dark Ops 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>1250</new_price>
-		<new_price id=1>1310</new_price>
-		<new_price id=2>1340</new_price>
-		<old_price id=0>1251</old_price>
-		<old_price id=1>1325</old_price>
-		<old_price id=2>1365</old_price>
+		<new_price id="0">1250</new_price>
+		<new_price id="1">1310</new_price>
+		<new_price id="2">1340</new_price>
+		<old_price id="0">1251</old_price>
+		<old_price id="1">1325</old_price>
+		<old_price id="2">1365</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 208.33 BYN/месяц</installment>
 	<prod_code>18944</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -1777,27 +1778,27 @@
 	<name>Пневматический пистолет Borner W3000M 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>410</new_price>
-		<new_price id=1>455</new_price>
-		<new_price id=2>497</new_price>
-		<new_price id=3>551</new_price>
-		<old_price id=0>411</old_price>
-		<old_price id=1>461</old_price>
-		<old_price id=2>520</old_price>
-		<old_price id=3>595</old_price>
+		<new_price id="0">410</new_price>
+		<new_price id="1">455</new_price>
+		<new_price id="2">497</new_price>
+		<new_price id="3">551</new_price>
+		<old_price id="0">411</old_price>
+		<old_price id="1">461</old_price>
+		<old_price id="2">520</old_price>
+		<old_price id="3">595</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 68.33 BYN/месяц</installment>
 	<prod_code>18878</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>140</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -1839,21 +1840,21 @@
 	<name>Пневматический револьвер Borner Super Sport 702 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>600</new_price>
-		<new_price id=1>645</new_price>
-		<old_price id=0>601</old_price>
-		<old_price id=1>651</old_price>
+		<new_price id="0">600</new_price>
+		<new_price id="1">645</new_price>
+		<old_price id="0">601</old_price>
+		<old_price id="1">651</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 100.00 BYN/месяц</installment>
 	<prod_code>19584</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -1895,27 +1896,27 @@
 	<name>Пневматический пистолет Borner W118 (HK) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>510</new_price>
-		<new_price id=1>555</new_price>
-		<new_price id=2>597</new_price>
-		<new_price id=3>651</new_price>
-		<old_price id=0>511</old_price>
-		<old_price id=1>561</old_price>
-		<old_price id=2>620</old_price>
-		<old_price id=3>695</old_price>
+		<new_price id="0">510</new_price>
+		<new_price id="1">555</new_price>
+		<new_price id="2">597</new_price>
+		<new_price id="3">651</new_price>
+		<old_price id="0">511</old_price>
+		<old_price id="1">561</old_price>
+		<old_price id="2">620</old_price>
+		<old_price id="3">695</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 85.00 BYN/месяц</installment>
 	<prod_code>19585</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -1952,19 +1953,19 @@
 	<name>Пневматический револьвер Stalker STR (Colt Python 2,5) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>520</new_price>
-		<new_price id=1>607</new_price>
-		<new_price id=2>661</new_price>
-		<old_price id=0>521</old_price>
-		<old_price id=1>630</old_price>
-		<old_price id=2>705</old_price>
+		<new_price id="0">520</new_price>
+		<new_price id="1">607</new_price>
+		<new_price id="2">661</new_price>
+		<old_price id="0">521</old_price>
+		<old_price id="1">630</old_price>
+		<old_price id="2">705</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 86.67 BYN/месяц</installment>
 	<prod_code>19605</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Стрелок"</bundle>
-			<bundle id=2>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Стрелок"</bundle>
+			<bundle id="2">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -2005,22 +2006,22 @@
 	<name>Пневматический пистолет Umarex Glock 19X 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>980</new_price>
-		<new_price id=1>1025</new_price>
-		<new_price id=2>1067</new_price>
-		<new_price id=3>1121</new_price>
-		<old_price id=0>981</old_price>
-		<old_price id=1>1031</old_price>
-		<old_price id=2>1090</old_price>
-		<old_price id=3>1165</old_price>
+		<new_price id="0">980</new_price>
+		<new_price id="1">1025</new_price>
+		<new_price id="2">1067</new_price>
+		<new_price id="3">1121</new_price>
+		<old_price id="0">981</old_price>
+		<old_price id="1">1031</old_price>
+		<old_price id="2">1090</old_price>
+		<old_price id="3">1165</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 163.33 BYN/месяц</installment>
 	<prod_code>19614</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -2062,19 +2063,19 @@
 	<name>Пневматический пистолет Blow H-01 W 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>300</new_price>
-		<new_price id=1>360</new_price>
-		<new_price id=2>390</new_price>
-		<old_price id=0>301</old_price>
-		<old_price id=1>375</old_price>
-		<old_price id=2>415</old_price>
+		<new_price id="0">300</new_price>
+		<new_price id="1">360</new_price>
+		<new_price id="2">390</new_price>
+		<old_price id="0">301</old_price>
+		<old_price id="1">375</old_price>
+		<old_price id="2">415</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 50.00 BYN/месяц</installment>
 	<prod_code>19698</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -2115,19 +2116,19 @@
 	<name>Пневматический пистолет Blow H-01 S 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>300</new_price>
-		<new_price id=1>360</new_price>
-		<new_price id=2>390</new_price>
-		<old_price id=0>301</old_price>
-		<old_price id=1>375</old_price>
-		<old_price id=2>415</old_price>
+		<new_price id="0">300</new_price>
+		<new_price id="1">360</new_price>
+		<new_price id="2">390</new_price>
+		<old_price id="0">301</old_price>
+		<old_price id="1">375</old_price>
+		<old_price id="2">415</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 50.00 BYN/месяц</installment>
 	<prod_code>19697</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -2172,22 +2173,22 @@
 	<name>Пневматический пистолет МР-654К</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>600</new_price>
-		<new_price id=1>645</new_price>
-		<new_price id=2>687</new_price>
-		<new_price id=3>741</new_price>
-		<old_price id=0>601</old_price>
-		<old_price id=1>651</old_price>
-		<old_price id=2>710</old_price>
-		<old_price id=3>785</old_price>
+		<new_price id="0">600</new_price>
+		<new_price id="1">645</new_price>
+		<new_price id="2">687</new_price>
+		<new_price id="3">741</new_price>
+		<old_price id="0">601</old_price>
+		<old_price id="1">651</old_price>
+		<old_price id="2">710</old_price>
+		<old_price id="3">785</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 100.00 BYN/месяц</installment>
 	<prod_code>19759</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -2232,22 +2233,22 @@
 	<name>Пневматический пистолет Stalker STSS (SIG Sauer SP2022) 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>400</new_price>
-		<new_price id=1>445</new_price>
-		<new_price id=2>487</new_price>
-		<new_price id=3>541</new_price>
-		<old_price id=0>401</old_price>
-		<old_price id=1>451</old_price>
-		<old_price id=2>510</old_price>
-		<old_price id=3>585</old_price>
+		<new_price id="0">400</new_price>
+		<new_price id="1">445</new_price>
+		<new_price id="2">487</new_price>
+		<new_price id="3">541</new_price>
+		<old_price id="0">401</old_price>
+		<old_price id="1">451</old_price>
+		<old_price id="2">510</old_price>
+		<old_price id="3">585</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 66.67 BYN/месяц</installment>
 	<prod_code>19604</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -2338,19 +2339,19 @@
 	<name>Пневматический пистолет Hatsan Mod 25 Air Pistol Kit 4.5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>540</new_price>
-		<new_price id=1>600</new_price>
-		<new_price id=2>630</new_price>
-		<old_price id=0>541</old_price>
-		<old_price id=1>615</old_price>
-		<old_price id=2>655</old_price>
+		<new_price id="0">540</new_price>
+		<new_price id="1">600</new_price>
+		<new_price id="2">630</new_price>
+		<old_price id="0">541</old_price>
+		<old_price id="1">615</old_price>
+		<old_price id="2">655</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 90.00 BYN/месяц</installment>
 	<prod_code>19754</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -2571,19 +2572,19 @@
 	<name>Пневматический пистолет Diana P-Five 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>480</new_price>
-		<new_price id=1>540</new_price>
-		<new_price id=2>570</new_price>
-		<old_price id=0>481</old_price>
-		<old_price id=1>555</old_price>
-		<old_price id=2>595</old_price>
+		<new_price id="0">480</new_price>
+		<new_price id="1">540</new_price>
+		<new_price id="2">570</new_price>
+		<old_price id="0">481</old_price>
+		<old_price id="1">555</old_price>
+		<old_price id="2">595</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 80.00 BYN/месяц</installment>
 	<prod_code>19765</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -2656,19 +2657,19 @@
 	<name>Пневматический пистолет Hatsan MOD 25 MW 4,5 мм</name>
 	<avalibility>В наличии</avalibility>
 	<prices>
-		<new_price id=0>540</new_price>
-		<new_price id=1>600</new_price>
-		<new_price id=2>630</new_price>
-		<old_price id=0>541</old_price>
-		<old_price id=1>615</old_price>
-		<old_price id=2>655</old_price>
+		<new_price id="0">540</new_price>
+		<new_price id="1">600</new_price>
+		<new_price id="2">630</new_price>
+		<old_price id="0">541</old_price>
+		<old_price id="1">615</old_price>
+		<old_price id="2">655</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 90.00 BYN/месяц</installment>
 	<prod_code>19764</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -2754,22 +2755,22 @@
 	<name>Пневматический пистолет Borner Power Win 304 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>250</new_price>
-		<new_price id=1>295</new_price>
-		<new_price id=2>337</new_price>
-		<new_price id=3>391</new_price>
-		<old_price id=0>251</old_price>
-		<old_price id=1>301</old_price>
-		<old_price id=2>360</old_price>
-		<old_price id=3>435</old_price>
+		<new_price id="0">250</new_price>
+		<new_price id="1">295</new_price>
+		<new_price id="2">337</new_price>
+		<new_price id="3">391</new_price>
+		<old_price id="0">251</old_price>
+		<old_price id="1">301</old_price>
+		<old_price id="2">360</old_price>
+		<old_price id="3">435</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 41.67 BYN/месяц</installment>
 	<prod_code>18880</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -2969,22 +2970,22 @@
 	<name>Пневматический пистолет Stalker STT (аналог TT) 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>280</new_price>
-		<new_price id=1>325</new_price>
-		<new_price id=2>367</new_price>
-		<new_price id=3>421</new_price>
-		<old_price id=0>281</old_price>
-		<old_price id=1>331</old_price>
-		<old_price id=2>390</old_price>
-		<old_price id=3>465</old_price>
+		<new_price id="0">280</new_price>
+		<new_price id="1">325</new_price>
+		<new_price id="2">367</new_price>
+		<new_price id="3">421</new_price>
+		<old_price id="0">281</old_price>
+		<old_price id="1">331</old_price>
+		<old_price id="2">390</old_price>
+		<old_price id="3">465</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 46.67 BYN/месяц</installment>
 	<prod_code>18970</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -3091,19 +3092,19 @@
 	<name>Пневматический пистолет Hatsan MOD 25 Supercharger 4,5 мм</name>
 	<avalibility>На заказ (цену уточняйте)</avalibility>
 	<prices>
-		<new_price id=0>480</new_price>
-		<new_price id=1>540</new_price>
-		<new_price id=2>570</new_price>
-		<old_price id=0>481</old_price>
-		<old_price id=1>555</old_price>
-		<old_price id=2>595</old_price>
+		<new_price id="0">480</new_price>
+		<new_price id="1">540</new_price>
+		<new_price id="2">570</new_price>
+		<old_price id="0">481</old_price>
+		<old_price id="1">555</old_price>
+		<old_price id="2">595</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 80.00 BYN/месяц</installment>
 	<prod_code>18938</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -3139,22 +3140,22 @@
 	<name>Пневматический пистолет вальтер Umarex Walther PPS 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>500</new_price>
-		<new_price id=1>545</new_price>
-		<new_price id=2>587</new_price>
-		<new_price id=3>641</new_price>
-		<old_price id=0>501</old_price>
-		<old_price id=1>551</old_price>
-		<old_price id=2>610</old_price>
-		<old_price id=3>685</old_price>
+		<new_price id="0">500</new_price>
+		<new_price id="1">545</new_price>
+		<new_price id="2">587</new_price>
+		<new_price id="3">641</new_price>
+		<old_price id="0">501</old_price>
+		<old_price id="1">551</old_price>
+		<old_price id="2">610</old_price>
+		<old_price id="3">685</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 83.33 BYN/месяц</installment>
 	<prod_code>18924</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -3202,22 +3203,22 @@
 	<name>Пневматический пистолет Ярыгина МР-655К 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>440</new_price>
-		<new_price id=1>485</new_price>
-		<new_price id=2>527</new_price>
-		<new_price id=3>581</new_price>
-		<old_price id=0>441</old_price>
-		<old_price id=1>491</old_price>
-		<old_price id=2>550</old_price>
-		<old_price id=3>625</old_price>
+		<new_price id="0">440</new_price>
+		<new_price id="1">485</new_price>
+		<new_price id="2">527</new_price>
+		<new_price id="3">581</new_price>
+		<old_price id="0">441</old_price>
+		<old_price id="1">491</old_price>
+		<old_price id="2">550</old_price>
+		<old_price id="3">625</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 73.33 BYN/месяц</installment>
 	<prod_code>18933</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -3263,22 +3264,22 @@
 	<name>Пневматический пистолет Umarex P.08 4,5 мм Люгер Парабеллум</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>600</new_price>
-		<new_price id=1>645</new_price>
-		<new_price id=2>687</new_price>
-		<new_price id=3>741</new_price>
-		<old_price id=0>601</old_price>
-		<old_price id=1>651</old_price>
-		<old_price id=2>710</old_price>
-		<old_price id=3>785</old_price>
+		<new_price id="0">600</new_price>
+		<new_price id="1">645</new_price>
+		<new_price id="2">687</new_price>
+		<new_price id="3">741</new_price>
+		<old_price id="0">601</old_price>
+		<old_price id="1">651</old_price>
+		<old_price id="2">710</old_price>
+		<old_price id="3">785</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 100.00 BYN/месяц</installment>
 	<prod_code>19596</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -3416,22 +3417,22 @@
 	<name>Пневматический пистолет МР 654К-22 с фальшглушителем 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>700</new_price>
-		<new_price id=1>745</new_price>
-		<new_price id=2>787</new_price>
-		<new_price id=3>841</new_price>
-		<old_price id=0>701</old_price>
-		<old_price id=1>751</old_price>
-		<old_price id=2>810</old_price>
-		<old_price id=3>885</old_price>
+		<new_price id="0">700</new_price>
+		<new_price id="1">745</new_price>
+		<new_price id="2">787</new_price>
+		<new_price id="3">841</new_price>
+		<old_price id="0">701</old_price>
+		<old_price id="1">751</old_price>
+		<old_price id="2">810</old_price>
+		<old_price id="3">885</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 116.67 BYN/месяц</installment>
 	<prod_code>18910</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -3478,22 +3479,22 @@
 	<name>Пневматический пистолет Borner M84 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>380</new_price>
-		<new_price id=1>425</new_price>
-		<new_price id=2>467</new_price>
-		<new_price id=3>521</new_price>
-		<old_price id=0>381</old_price>
-		<old_price id=1>431</old_price>
-		<old_price id=2>490</old_price>
-		<old_price id=3>565</old_price>
+		<new_price id="0">380</new_price>
+		<new_price id="1">425</new_price>
+		<new_price id="2">467</new_price>
+		<new_price id="3">521</new_price>
+		<old_price id="0">381</old_price>
+		<old_price id="1">431</old_price>
+		<old_price id="2">490</old_price>
+		<old_price id="3">565</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 63.33 BYN/месяц</installment>
 	<prod_code>18881</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -3541,22 +3542,22 @@
 	<name>Пневматический пистолет вальтер Umarex Walther P38 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>820</new_price>
-		<new_price id=1>865</new_price>
-		<new_price id=2>907</new_price>
-		<new_price id=3>961</new_price>
-		<old_price id=0>821</old_price>
-		<old_price id=1>871</old_price>
-		<old_price id=2>930</old_price>
-		<old_price id=3>1005</old_price>
+		<new_price id="0">820</new_price>
+		<new_price id="1">865</new_price>
+		<new_price id="2">907</new_price>
+		<new_price id="3">961</new_price>
+		<old_price id="0">821</old_price>
+		<old_price id="1">871</old_price>
+		<old_price id="2">930</old_price>
+		<old_price id="3">1005</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 136.67 BYN/месяц</installment>
 	<prod_code>18930</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -4031,19 +4032,19 @@
 	<name>Пневматический пистолет Hatsan MOD 25 Super Tactical 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>550</new_price>
-		<new_price id=1>610</new_price>
-		<new_price id=2>640</new_price>
-		<old_price id=0>551</old_price>
-		<old_price id=1>625</old_price>
-		<old_price id=2>665</old_price>
+		<new_price id="0">550</new_price>
+		<new_price id="1">610</new_price>
+		<new_price id="2">640</new_price>
+		<old_price id="0">551</old_price>
+		<old_price id="1">625</old_price>
+		<old_price id="2">665</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 91.67 BYN/месяц</installment>
 	<prod_code>19615</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>пружинно-поршневой</type>
 	<caliber>4.5</caliber>
@@ -4119,22 +4120,22 @@
 	<name>Пневматический пистолет Umarex Beretta Elite II 4,5 мм</name>
 	<avalibility>На заказ (цену уточняйте)</avalibility>
 	<prices>
-		<new_price id=0>390</new_price>
-		<new_price id=1>435</new_price>
-		<new_price id=2>477</new_price>
-		<new_price id=3>531</new_price>
-		<old_price id=0>391</old_price>
-		<old_price id=1>441</old_price>
-		<old_price id=2>500</old_price>
-		<old_price id=3>575</old_price>
+		<new_price id="0">390</new_price>
+		<new_price id="1">435</new_price>
+		<new_price id="2">477</new_price>
+		<new_price id="3">531</new_price>
+		<old_price id="0">391</old_price>
+		<old_price id="1">441</old_price>
+		<old_price id="2">500</old_price>
+		<old_price id="3">575</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 65.00 BYN/месяц</installment>
 	<prod_code>18922</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -4404,22 +4405,22 @@
 	<name>Пневматический пистолет Umarex Legends C96 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>510</new_price>
-		<new_price id=1>555</new_price>
-		<new_price id=2>597</new_price>
-		<new_price id=3>651</new_price>
-		<old_price id=0>511</old_price>
-		<old_price id=1>561</old_price>
-		<old_price id=2>620</old_price>
-		<old_price id=3>695</old_price>
+		<new_price id="0">510</new_price>
+		<new_price id="1">555</new_price>
+		<new_price id="2">597</new_price>
+		<new_price id="3">651</new_price>
+		<old_price id="0">511</old_price>
+		<old_price id="1">561</old_price>
+		<old_price id="2">620</old_price>
+		<old_price id="3">695</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 85.00 BYN/месяц</installment>
 	<prod_code>18923</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -4465,22 +4466,22 @@
 	<name>Пневматический пистолет МР-654К-24 белый 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>800</new_price>
-		<new_price id=1>845</new_price>
-		<new_price id=2>887</new_price>
-		<new_price id=3>941</new_price>
-		<old_price id=0>801</old_price>
-		<old_price id=1>851</old_price>
-		<old_price id=2>910</old_price>
-		<old_price id=3>985</old_price>
+		<new_price id="0">800</new_price>
+		<new_price id="1">845</new_price>
+		<new_price id="2">887</new_price>
+		<new_price id="3">941</new_price>
+		<old_price id="0">801</old_price>
+		<old_price id="1">851</old_price>
+		<old_price id="2">910</old_price>
+		<old_price id="3">985</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 133.33 BYN/месяц</installment>
 	<prod_code>18912</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -4536,7 +4537,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>132</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>есть, Weaver/Picatinny 22 мм</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -4621,7 +4622,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -4871,22 +4872,22 @@
 	<name>Пневматический пистолет Borner C11 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>250</new_price>
-		<new_price id=1>295</new_price>
-		<new_price id=2>337</new_price>
-		<new_price id=3>391</new_price>
-		<old_price id=0>251</old_price>
-		<old_price id=1>301</old_price>
-		<old_price id=2>360</old_price>
-		<old_price id=3>435</old_price>
+		<new_price id="0">250</new_price>
+		<new_price id="1">295</new_price>
+		<new_price id="2">337</new_price>
+		<new_price id="3">391</new_price>
+		<old_price id="0">251</old_price>
+		<old_price id="1">301</old_price>
+		<old_price id="2">360</old_price>
+		<old_price id="3">435</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 41.67 BYN/месяц</installment>
 	<prod_code>19588</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -4971,22 +4972,22 @@
 	<name>Пневматический пистолет Borner Sport 306 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>280</new_price>
-		<new_price id=1>325</new_price>
-		<new_price id=2>367</new_price>
-		<new_price id=3>421</new_price>
-		<old_price id=0>281</old_price>
-		<old_price id=1>331</old_price>
-		<old_price id=2>390</old_price>
-		<old_price id=3>465</old_price>
+		<new_price id="0">280</new_price>
+		<new_price id="1">325</new_price>
+		<new_price id="2">367</new_price>
+		<new_price id="3">421</new_price>
+		<old_price id="0">281</old_price>
+		<old_price id="1">331</old_price>
+		<old_price id="2">390</old_price>
+		<old_price id="3">465</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 46.67 BYN/месяц</installment>
 	<prod_code>18889</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -5037,7 +5038,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>128</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -5465,7 +5466,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>110</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -5839,19 +5840,19 @@
 	<name>Пневматический револьвер Umarex Colt SAA .45-5,5 nickel finish пулевой 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>1150</new_price>
-		<new_price id=1>1210</new_price>
-		<new_price id=2>1240</new_price>
-		<old_price id=0>1151</old_price>
-		<old_price id=1>1225</old_price>
-		<old_price id=2>1265</old_price>
+		<new_price id="0">1150</new_price>
+		<new_price id="1">1210</new_price>
+		<new_price id="2">1240</new_price>
+		<old_price id="0">1151</old_price>
+		<old_price id="1">1225</old_price>
+		<old_price id="2">1265</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 191.67 BYN/месяц</installment>
 	<prod_code>18928</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -5912,22 +5913,22 @@
 	<name>Пневматический пистолет Borner Sport 306 (m) 4,5 мм</name>
 	<avalibility>На заказ (цену уточняйте)</avalibility>
 	<prices>
-		<new_price id=0>360</new_price>
-		<new_price id=1>405</new_price>
-		<new_price id=2>447</new_price>
-		<new_price id=3>501</new_price>
-		<old_price id=0>361</old_price>
-		<old_price id=1>411</old_price>
-		<old_price id=2>470</old_price>
-		<old_price id=3>545</old_price>
+		<new_price id="0">360</new_price>
+		<new_price id="1">405</new_price>
+		<new_price id="2">447</new_price>
+		<new_price id="3">501</new_price>
+		<old_price id="0">361</old_price>
+		<old_price id="1">411</old_price>
+		<old_price id="2">470</old_price>
+		<old_price id="3">545</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 60.00 BYN/месяц</installment>
 	<prod_code>18885</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -6240,7 +6241,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>100</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -6274,22 +6275,22 @@
 	<name>Пневматический пистолет Crosman 1701P 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>1350</new_price>
-		<new_price id=1>1395</new_price>
-		<new_price id=2>1437</new_price>
-		<new_price id=3>1491</new_price>
-		<old_price id=0>1351</old_price>
-		<old_price id=1>1401</old_price>
-		<old_price id=2>1460</old_price>
-		<old_price id=3>1535</old_price>
+		<new_price id="0">1350</new_price>
+		<new_price id="1">1395</new_price>
+		<new_price id="2">1437</new_price>
+		<new_price id="3">1491</new_price>
+		<old_price id="0">1351</old_price>
+		<old_price id="1">1401</old_price>
+		<old_price id="2">1460</old_price>
+		<old_price id="3">1535</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 225.00 BYN/месяц</installment>
 	<prod_code>18973</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>PCP (с накачкой)</type>
 	<caliber>4.5</caliber>
@@ -6477,7 +6478,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -6625,19 +6626,19 @@
 	<name>Пневматический револьвер Umarex Colt SAA .45-5,5 blue finish пулевой 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>900</new_price>
-		<new_price id=1>960</new_price>
-		<new_price id=2>990</new_price>
-		<old_price id=0>901</old_price>
-		<old_price id=1>975</old_price>
-		<old_price id=2>1015</old_price>
+		<new_price id="0">900</new_price>
+		<new_price id="1">960</new_price>
+		<new_price id="2">990</new_price>
+		<old_price id="0">901</old_price>
+		<old_price id="1">975</old_price>
+		<old_price id="2">1015</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 150.00 BYN/месяц</installment>
 	<prod_code>18859</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -7034,7 +7035,7 @@
 	</images>
 </pistol>
 <pistol>
-	<name>Пневматический пистолет Umarex S&W M&P 45 4,5 мм</name>
+	<name>Пневматический пистолет Umarex S&amp;W M&amp;P 45 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<price>490 BYN</price>
 	<installment>Цена в рассрочку от 81.7 BYN/месяц</installment>
@@ -7044,7 +7045,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>112</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -7083,22 +7084,22 @@
 	<name>Пневматический пистолет МР-654К-23 камуфляж 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>680</new_price>
-		<new_price id=1>725</new_price>
-		<new_price id=2>767</new_price>
-		<new_price id=3>821</new_price>
-		<old_price id=0>681</old_price>
-		<old_price id=1>731</old_price>
-		<old_price id=2>790</old_price>
-		<old_price id=3>865</old_price>
+		<new_price id="0">680</new_price>
+		<new_price id="1">725</new_price>
+		<new_price id="2">767</new_price>
+		<new_price id="3">821</new_price>
+		<old_price id="0">681</old_price>
+		<old_price id="1">731</old_price>
+		<old_price id="2">790</old_price>
+		<old_price id="3">865</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 113.33 BYN/месяц</installment>
 	<prod_code>18967</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -7196,19 +7197,19 @@
 	<name>Пневматический револьвер Umarex Colt SAA .45-5,5 antik finish пулевой 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>1150</new_price>
-		<new_price id=1>1210</new_price>
-		<new_price id=2>1240</new_price>
-		<old_price id=0>1151</old_price>
-		<old_price id=1>1225</old_price>
-		<old_price id=2>1265</old_price>
+		<new_price id="0">1150</new_price>
+		<new_price id="1">1210</new_price>
+		<new_price id="2">1240</new_price>
+		<old_price id="0">1151</old_price>
+		<old_price id="1">1225</old_price>
+		<old_price id="2">1265</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 191.67 BYN/месяц</installment>
 	<prod_code>18857</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Стрелок</bundle>
-			<bundle id=2>Профи</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Стрелок</bundle>
+			<bundle id="2">Профи</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -7671,22 +7672,22 @@
 	<name>Пневматический пистолет Borner WC 401 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>260</new_price>
-		<new_price id=1>305</new_price>
-		<new_price id=2>347</new_price>
-		<new_price id=3>401</new_price>
-		<old_price id=0>261</old_price>
-		<old_price id=1>311</old_price>
-		<old_price id=2>370</old_price>
-		<old_price id=3>445</old_price>
+		<new_price id="0">260</new_price>
+		<new_price id="1">305</new_price>
+		<new_price id="2">347</new_price>
+		<new_price id="3">401</new_price>
+		<old_price id="0">261</old_price>
+		<old_price id="1">311</old_price>
+		<old_price id="2">370</old_price>
+		<old_price id="3">445</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 43.33 BYN/месяц</installment>
 	<prod_code>19590</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -7739,7 +7740,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -7870,22 +7871,22 @@
 	<name>Пневматический пистолет Borner Z122 4,5 мм</name>
 	<avalibility>На заказ (цену уточняйте)</avalibility>
 	<prices>
-		<new_price id=0>260</new_price>
-		<new_price id=1>305</new_price>
-		<new_price id=2>347</new_price>
-		<new_price id=3>401</new_price>
-		<old_price id=0>261</old_price>
-		<old_price id=1>311</old_price>
-		<old_price id=2>370</old_price>
-		<old_price id=3>445</old_price>
+		<new_price id="0">260</new_price>
+		<new_price id="1">305</new_price>
+		<new_price id="2">347</new_price>
+		<new_price id="3">401</new_price>
+		<old_price id="0">261</old_price>
+		<old_price id="1">311</old_price>
+		<old_price id="2">370</old_price>
+		<old_price id="3">445</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 43.33 BYN/месяц</installment>
 	<prod_code>19591</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -7994,7 +7995,7 @@
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>120</shot_speed>
-	<prototype>Smith & Wesson</prototype>
+	<prototype>Smith &amp; Wesson</prototype>
 	<sight_mount>нарезной</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>нет</energy_source>
@@ -8042,27 +8043,27 @@
 	<name>Пневматический пистолет Borner W3000 4,5 мм</name>
 	<avalibility>Под заказ (3-10 дней)</avalibility>
 	<prices>
-		<new_price id=0>330</new_price>
-		<new_price id=1>375</new_price>
-		<new_price id=2>417</new_price>
-		<new_price id=3>471</new_price>
-		<old_price id=0>331</old_price>
-		<old_price id=1>381</old_price>
-		<old_price id=2>440</old_price>
-		<old_price id=3>515</old_price>
+		<new_price id="0">330</new_price>
+		<new_price id="1">375</new_price>
+		<new_price id="2">417</new_price>
+		<new_price id="3">471</new_price>
+		<old_price id="0">331</old_price>
+		<old_price id="1">381</old_price>
+		<old_price id="2">440</old_price>
+		<old_price id="3">515</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 55.00 BYN/месяц</installment>
 	<prod_code>18891</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
 	<shot_speed>130</shot_speed>
-	<prototype>Heckler & Koch</prototype>
+	<prototype>Heckler &amp; Koch</prototype>
 	<sight_mount>гладкий</sight_mount>
 	<under_barrel_mount>нет</under_barrel_mount>
 	<energy_source>есть, Weaver/Picatinny 22 мм</energy_source>
@@ -8254,16 +8255,16 @@
 	<name>Пневматический пистолет Crosman MK 45 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>370</new_price>
-		<new_price id=1>415</new_price>
-		<old_price id=0>371</old_price>
-		<old_price id=1>421</old_price>
+		<new_price id="0">370</new_price>
+		<new_price id="1">415</new_price>
+		<old_price id="0">371</old_price>
+		<old_price id="1">421</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 61.67 BYN/месяц</installment>
 	<prod_code>18908</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -9966,22 +9967,22 @@
 	<name>Пневматический пистолет Crosman CM9B Mako 4,5 мм</name>
 	<avalibility>Больше не поставляется</avalibility>
 	<prices>
-		<new_price id=0>420</new_price>
-		<new_price id=1>465</new_price>
-		<new_price id=2>507</new_price>
-		<new_price id=3>561</new_price>
-		<old_price id=0>421</old_price>
-		<old_price id=1>471</old_price>
-		<old_price id=2>530</old_price>
-		<old_price id=3>605</old_price>
+		<new_price id="0">420</new_price>
+		<new_price id="1">465</new_price>
+		<new_price id="2">507</new_price>
+		<new_price id="3">561</new_price>
+		<old_price id="0">421</old_price>
+		<old_price id="1">471</old_price>
+		<old_price id="2">530</old_price>
+		<old_price id="3">605</old_price>
 	</prices>
 	<installment>Цена в рассрочку от 70.00 BYN/месяц</installment>
 	<prod_code>19692</prod_code>
 	<equipments>
-			<bundle id=0>Базовый комплект</bundle>
-			<bundle id=1>Комплект "Старт"</bundle>
-			<bundle id=2>Комплект "Стрелок"</bundle>
-			<bundle id=3>Комплект "Профи"</bundle>
+			<bundle id="0">Базовый комплект</bundle>
+			<bundle id="1">Комплект "Старт"</bundle>
+			<bundle id="2">Комплект "Стрелок"</bundle>
+			<bundle id="3">Комплект "Профи"</bundle>
 	</equipments>
 	<type>газобаллонный</type>
 	<caliber>4.5</caliber>
@@ -10102,3 +10103,4 @@
 		<image id="8">img/pnevmaticheskiy-pistolet-hatsan-jet-1-5-5-mm-6-1200x675.jpg</image>
 	</images>
 </pistol>
+</pistols>
