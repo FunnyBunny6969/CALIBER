@@ -1,14 +1,6 @@
 @import 'common';
 
 
-*{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-}
-
 main{
     width: 1350px;
     margin: 0 auto;
@@ -180,10 +172,8 @@ main{
 
 
                         .buy{
-                        @include text-style(15px);
-
+                            @include text-style(15px);
                             background-color: $accentCol;
-
                             &:hover{
                                 background-color: #ffe137;
                             }

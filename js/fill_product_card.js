@@ -125,6 +125,20 @@ fetch('../database/base.xml')
         fill_table_block(24, 28, 2);
         fill_table_block(28, 31, 3);
 
+        
+        //images
+        document.querySelector('img.general').src = guns[gun].getElementsByTagName('images')[0].getElementsByTagName('image')[0].textContent;
+        imgs = document.getElementsByClassName('galery')[0];
+        imgs_links = guns[gun].getElementsByTagName('image');
+        imgs.innerHTML = '';
+        for (let i = 1; i < imgs_links.length; i++) {
+            imgs.innerHTML += `
+            <div class="img-cont">
+                <img src="${imgs_links[i].textContent}" class="general">
+            </div>`;
+        }
+
+
         //equipment
         let bundles = guns[gun].getElementsByTagName('bundle');
         let container = document.getElementsByClassName('equipment')[0];
@@ -168,24 +182,8 @@ fetch('../database/base.xml')
         }
         content +=  container.innerHTML;
         container.innerHTML = content;
-
-
         
-
-
-        //images
-        document.querySelector('img.general').src = guns[gun].getElementsByTagName('images')[0].getElementsByTagName('image')[0].textContent;
-        imgs = document.getElementsByClassName('galery')[0];
-        imgs_links = guns[gun].getElementsByTagName('image');
-        imgs.innerHTML = '';
-        for (let i = 1; i < imgs_links.length; i++) {
-            imgs.innerHTML += `
-            <div class="img-cont">
-                <img src="${imgs_links[i].textContent}" class="general">
-            </div>`;
-        }
-
-
+        equipment_block_builder(1);
 
 
 

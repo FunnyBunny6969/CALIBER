@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .headline {
   height: 35px;
   width: 100%;
@@ -61,11 +69,8 @@
 }
 .listFilt div:not(.headline):not(.container) input {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  appearance: none;
+  user-select: none;
   height: 20px;
   width: 20px;
   border: 1px solid #424242;
