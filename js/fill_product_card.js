@@ -23,11 +23,18 @@ fetch('../database/base.xml')
         document.querySelector('main>h1').textContent = guns[gun].getElementsByTagName('name')[0].textContent;
         document.querySelector('p#installment').textContent = guns[gun].getElementsByTagName('installment')[0].textContent;
         
+        //buttons | avalibility color
         let avalibility_line = document.querySelector('span.avalibility');
         avalibility_line.textContent = guns[gun].getElementsByTagName('avalibility')[0].textContent;
         if (guns[gun].getElementsByTagName('avalibility')[0].textContent != "В наличии"){
             avalibility_line.style.color = 'red';
+            document.getElementsByClassName('buttons')[0].innerHTML = '<button class="one_click">Заказать</button>';
+            document.getElementsByClassName('one_click')[0].style.width = '100%';
         }
+
+
+
+
         
         //work with table
         const tags = [
@@ -113,11 +120,57 @@ fetch('../database/base.xml')
             }
             document.getElementsByTagName('tbody')[block_num].innerHTML = table;
         }
-
         fill_table_block(0, 21, 0);
         fill_table_block(21, 24, 1);
         fill_table_block(24, 28, 2);
         fill_table_block(28, 31, 3);
+
+        //equipment
+        let bundles = guns[gun].getElementsByTagName('bundle');
+        let container = document.getElementsByClassName('equipment')[0];
+        let content = '';
+        if (bundles.length > 0){
+            content += '<h2>Выберите комплектицию</h2>';
+            let new_prices = guns[gun].getElementsByTagName('new_price');
+            let old_prices = guns[gun].getElementsByTagName('old_price');
+            for (let i = 0; i < bundles.length; i++) {
+                if (i == 0){
+                    content += `
+                    <div class="choice active" id="${i+1}">
+                        <h2>${bundles[i].textContent}</h2>
+                        <div>
+                            <span class="now">${new_prices[i].textContent} BYN</span>
+                            <span class="was">${old_prices[i].textContent} BYN</span>
+                        </div>
+                    </div>
+                    `
+
+                }
+                else{
+                    content += `
+                    <div class="choice" id="${i+1}">
+                        <h2>${bundles[i].textContent}</h2>
+                        <div>
+                            <span class="now">${new_prices[i].textContent} BYN</span>
+                            <span class="was">${old_prices[i].textContent} BYN</span>
+                        </div>
+                    </div>
+                    `
+                }
+            }
+        }
+        else{
+            content += `<h1>${guns[gun].getElementsByTagName('price')[0].textContent}</h1>`;
+            document.getElementsByClassName('set')[0].innerHTML = '';
+            document.getElementsByClassName('set')[0].style.display = 'none';
+            document.querySelector('.info .container').style.height = 'auto';
+            document.querySelector('.equipment').style.width = "100%";
+        }
+        content +=  container.innerHTML;
+        container.innerHTML = content;
+
+
+        
 
 
         //images
@@ -131,6 +184,7 @@ fetch('../database/base.xml')
                 <img src="${imgs_links[i].textContent}" class="general">
             </div>`;
         }
+
 
 
 

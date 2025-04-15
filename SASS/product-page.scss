@@ -26,6 +26,7 @@ main{
         width: 100%;
         display: flex;
         height: 790px;
+        align-items: stretch;
 
         .photos{
             @include box-style;
@@ -71,7 +72,6 @@ main{
         .info{
             margin-left: 15px;
             width: 60%;
-            height: 300px;
 
 
             position: relative;
@@ -129,7 +129,7 @@ main{
                             }
                         }
 
-                        &:active{
+                        &.active{
                             background-color: lighten($peripheralCol, 20);
 
                             h2, .now{
@@ -144,8 +144,8 @@ main{
                                 content: '';
                                 position: absolute;
                                 top: 0px; 
-                                right: -20px; 
-                                border-left: 20px solid lighten($peripheralCol, 20); 
+                                right: -15px; 
+                                border-left: 15px solid lighten($peripheralCol, 20); 
                                 border-top: 28px solid transparent;
                                 border-bottom: 28px solid transparent;
                             }
@@ -344,13 +344,9 @@ main{
                             font-weight: normal;
                         }
 
-                        &:active{
+                        &.active{
                             border-color: $peripheralCol;
                             background-color: $accentCol;
-
-                            .other-info-box{
-                                background-color: red;
-                            }
                         }
 
                     }
@@ -362,6 +358,7 @@ main{
                     position: absolute;
                     background-color: white;
                     width: 100%;
+                    height: 220px;
                     h2{
                         @include text-style(20px, grey);
                         font-weight: normal;
@@ -377,16 +374,16 @@ main{
                         }
                     }
 
-                    &:nth-child(1){
-                        z-index: 1;
-                    }
                     &:nth-child(2){
-                        z-index: 2;
+                        z-index: 1;
                     }
                     &:nth-child(3){
-                        z-index: 1;
+                        z-index: 0;
                     }
                     &:nth-child(4){
+                        z-index: 0;
+                    }
+                    &:nth-child(5){
                         z-index: 0;
                     }
                 }

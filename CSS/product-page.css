@@ -24,6 +24,7 @@ main > div {
   width: 100%;
   display: flex;
   height: 790px;
+  align-items: stretch;
 }
 main > div .photos {
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
@@ -62,7 +63,6 @@ main > div .photos .galery .img-cont:hover {
 main > div .info {
   margin-left: 15px;
   width: 60%;
-  height: 300px;
   position: relative;
 }
 main > div .info .container {
@@ -119,21 +119,21 @@ main > div .info .container .equipment .choice div .was {
   text-align: right;
   text-decoration: line-through;
 }
-main > div .info .container .equipment .choice:active {
+main > div .info .container .equipment .choice.active {
   background-color: #757575;
 }
-main > div .info .container .equipment .choice:active h2, main > div .info .container .equipment .choice:active .now {
+main > div .info .container .equipment .choice.active h2, main > div .info .container .equipment .choice.active .now {
   color: white;
 }
-main > div .info .container .equipment .choice:active .was {
+main > div .info .container .equipment .choice.active .was {
   color: #cccccc;
 }
-main > div .info .container .equipment .choice:active::after {
+main > div .info .container .equipment .choice.active::after {
   content: "";
   position: absolute;
   top: 0px;
-  right: -20px;
-  border-left: 20px solid #757575;
+  right: -15px;
+  border-left: 15px solid #757575;
   border-top: 28px solid transparent;
   border-bottom: 28px solid transparent;
 }
@@ -313,18 +313,16 @@ main > div .info .other .blocks .block span {
   font-family: "Inter-Regular", Helvetica;
   font-weight: normal;
 }
-main > div .info .other .blocks .block:active {
+main > div .info .other .blocks .block.active {
   border-color: #424242;
   background-color: #ffd800;
-}
-main > div .info .other .blocks .block:active .other-info-box {
-  background-color: red;
 }
 main > div .info .other .other-info-box {
   padding-left: 20px;
   position: absolute;
   background-color: white;
   width: 100%;
+  height: 220px;
 }
 main > div .info .other .other-info-box h2 {
   font-size: 20px;
@@ -341,16 +339,16 @@ main > div .info .other .other-info-box ul li {
 main > div .info .other .other-info-box ul li span {
   font-weight: bold;
 }
-main > div .info .other .other-info-box:nth-child(1) {
-  z-index: 1;
-}
 main > div .info .other .other-info-box:nth-child(2) {
-  z-index: 2;
+  z-index: 1;
 }
 main > div .info .other .other-info-box:nth-child(3) {
-  z-index: 1;
+  z-index: 0;
 }
 main > div .info .other .other-info-box:nth-child(4) {
+  z-index: 0;
+}
+main > div .info .other .other-info-box:nth-child(5) {
   z-index: 0;
 }
 main table {
