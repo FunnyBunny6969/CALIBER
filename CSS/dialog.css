@@ -73,7 +73,10 @@ dialog form button {
   margin-top: 20px;
   color: white;
   background-color: #424242;
-  border: 1px solid #424242;
+  border: none;
+}
+dialog form button:hover {
+  background-color: #5c5c5c;
 }
 dialog form img {
   width: 15px;
@@ -81,4 +84,8 @@ dialog form img {
   position: absolute;
   right: 20px;
   top: 18px;
+  opacity: 0.5;
+}
+dialog form img:hover {
+  opacity: 1;
 }/*# sourceMappingURL=dialog.css.map */

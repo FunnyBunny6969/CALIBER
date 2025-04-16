@@ -64,7 +64,11 @@ dialog{
             margin-top: 20px;
             color: $bgCol;
             background-color: $peripheralCol;
-            border: 1px solid $peripheralCol;
+            border: none;
+
+            &:hover{
+                background-color: lighten($peripheralCol, 10);
+            }
         }
 
         img{
@@ -73,6 +77,11 @@ dialog{
             position: absolute;
             right: 20px;
             top: 18px;
+            opacity: 0.5;
+
+            &:hover{
+                opacity: 1;
+            }
         }
 
     }
