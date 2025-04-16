@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/product_Card.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/filters.css">
+    <link rel="stylesheet" href="CSS/dialog.css">
 </head>
 <body>
     <header>
@@ -381,7 +382,7 @@ PCP (предварительная накачка)
             
             
             
-    <section>
+    <!-- <section>
         <div>
             <img src="img/desert eagle.jpg">
         </div>
@@ -438,13 +439,30 @@ PCP (предварительная накачка)
                 В ОДИН КЛИК
             </button>
         </div>
-    </section>
+    </section> -->
+    
 
     </main>
+    
+    <div class="buttonBox">
+        <button class="show_more">Показать ещё</button>
+    </div>
 
 
+    <dialog>
+        <form id="contact_info">
+            <img src="img/krestik.jpg" id="krestik">
+            <h2>Быстрый заказ</h2>
+            <label>Ваше имя:</label>
+            <input type="text" id="name" required="">
+            <label>Ваш телефон:</label>
+            <input type="text" id="phone" required="">
+            <button type="submit" id="send_contact_info">заказать</button>
+        </form>
+    </dialog>
 
 
+    <script src="js/one_click_window.js"></script>
     <script src="js/fill_cards_on_shop_page.js"></script>
 </body>
 </html>

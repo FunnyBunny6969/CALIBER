@@ -4,8 +4,8 @@ setTimeout(() => {
 
 
     const btn = document.querySelectorAll('.one_click');
-    if (btn.length != 0){
-        btn[0].addEventListener('click', function(event){
+    for (let i = 0; i < btn.length; i++) {
+        btn[i].addEventListener('click', function(event){
             let dialog = document.getElementsByTagName('dialog')[0];
             dialog.style.display = 'block';
             dialog.style.pointerEvents = 'all';

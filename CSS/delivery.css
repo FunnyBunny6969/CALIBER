@@ -6,6 +6,12 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .main-cont {
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
   border: rgb(200, 200, 200) 0.5px solid;
