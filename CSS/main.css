@@ -53,4 +53,17 @@ main .cards {
 }
 .buttonBox .show_more:hover {
   background-color: #5a5a5a;
+}
+
+@media (max-width: 450px) {
+  main {
+    max-width: 100%;
+  }
+  main aside {
+    display: none;
+  }
+  main .crads {
+    width: 100%;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -53,3 +53,21 @@ main{
         }
     }
 }
+
+
+
+
+@media (max-width: $mobile-width) {
+    main{
+        max-width: 100%;
+
+        aside{
+            display: none;
+        }
+
+        .crads{
+            width: 100%;
+            justify-content: space-around;
+        }
+    }
+}

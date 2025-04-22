@@ -34,3 +34,15 @@ nav{
         }
     }
 }
+
+@media (max-width: $mobile-width) {
+    nav{
+        height: auto;
+        flex-direction: column;
+        max-width: 100%;
+
+        a{
+            border: none;
+        }
+    }
+}
