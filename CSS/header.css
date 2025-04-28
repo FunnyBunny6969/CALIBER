@@ -195,13 +195,36 @@ header .container .right .basket div .count {
 
 @media (max-width: 450px) {
   header {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 0;
+    height: 180px;
   }
-  header form {
+  header .row {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  header .logo {
+    width: 190px;
+  }
+  header .logo div {
+    width: 190px;
+  }
+  header .logo div img {
+    height: 70px;
+  }
+  header .logo p {
+    font-size: 12px;
+  }
+  header .container form {
     position: absolute;
-    top: 110px;
-    left: 10%;
-    width: 80%;
+    width: 90%;
+    left: 5%;
+    top: 120px;
+  }
+  header .container .right {
+    justify-content: right;
+  }
+  header .container .right .phone {
+    display: none;
   }
 }/*# sourceMappingURL=header.css.map */

@@ -42,13 +42,28 @@ nav a:hover {
   color: rgb(221, 221, 221);
 }
 
+.mobile-nav {
+  display: none;
+}
+
 @media (max-width: 450px) {
-  nav {
-    height: auto;
-    flex-direction: column;
-    max-width: 100%;
+  nav:not(.mobile-nav) {
+    display: none;
   }
-  nav a {
-    border: none;
+  .mobile-nav {
+    display: block;
+    min-width: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .mobile-nav .buttons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 45px;
+    padding-top: 3px;
+  }
+  .mobile-nav .buttons img {
+    height: 39px;
   }
 }/*# sourceMappingURL=nav.css.map */

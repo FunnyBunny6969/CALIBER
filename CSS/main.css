@@ -57,13 +57,19 @@ main .cards {
 
 @media (max-width: 450px) {
   main {
-    max-width: 100%;
+    width: 100%;
+    max-width: none;
   }
   main aside {
     display: none;
   }
-  main .crads {
+  main .cards {
     width: 100%;
     justify-content: space-around;
+  }
+  .buttonBox {
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }/*# sourceMappingURL=main.css.map */

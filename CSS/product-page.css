@@ -325,6 +325,7 @@ main > div .info .other .blocks .block.active {
 }
 main > div .info .other .other-info-box {
   padding-left: 20px;
+  padding-right: 10px;
   position: absolute;
   background-color: white;
   width: 100%;
@@ -383,4 +384,52 @@ main table tr:hover, main table thead tr {
 }
 main table thead tr {
   border-bottom: 2px solid #959595;
+}
+
+@media (max-width: 450px) {
+  main {
+    width: 100%;
+    height: none;
+  }
+  main > div {
+    display: block;
+    height: auto;
+  }
+  main > div .photos {
+    width: 100%;
+  }
+  main > div .info {
+    margin: 0;
+    width: 100%;
+  }
+  main > div .info .container {
+    display: block;
+    height: auto;
+  }
+  main > div .info .container .equipment {
+    width: 100%;
+    margin-top: 10px;
+  }
+  main > div .info .container .equipment .choice.active::after {
+    content: "";
+    all: unset;
+  }
+  main > div .info .container .set {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+    height: 350px;
+  }
+  main > div .info .other {
+    height: 450px;
+  }
+  main > div .info .other .blocks {
+    justify-content: space-around;
+  }
+  main > div .info .other .blocks .block {
+    margin-left: 0;
+  }
+  main > div .info .other .other-info-box {
+    height: 350px;
+  }
 }/*# sourceMappingURL=product-page.css.map */

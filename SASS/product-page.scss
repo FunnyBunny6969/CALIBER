@@ -345,6 +345,7 @@ main{
 
                 .other-info-box{
                     padding-left: 20px;
+                    padding-right: 10px;
                     position: absolute;
                     background-color: white;
                     width: 100%;
@@ -408,4 +409,75 @@ main{
             border-bottom: 2px solid darken($card_border, 20);
         }
     }
+}
+
+
+
+
+
+
+
+@media (max-width: $mobile-width) {
+    main{
+        width: 100%;
+        height: none;
+
+        >div{
+            display: block;
+            height: auto;
+
+            .photos{
+                width: 100%;
+            }
+
+            .info{
+                margin: 0;
+                width: 100%;
+                
+                .container{
+                    display: block;
+                    height: auto;
+                
+                    .equipment{
+                        width: 100%;
+                        margin-top: 10px;
+                        .choice{
+                            &.active{
+                                &::after {
+                                    content: '';
+                                    all: unset; 
+                                }
+                            }
+                        }
+                    }
+
+                    .set{
+                        width: 100%;
+                        margin-left: 0;
+                        margin-top: 10px;
+                        height: 350px;
+                    }
+                }
+
+                .other{
+                    height: 450px;
+
+                    .blocks{
+                        justify-content: space-around;
+                        .block{
+                            margin-left: 0;
+                        }
+                    }
+
+                    .other-info-box{
+                        height: 350px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
 }

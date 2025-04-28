@@ -1,26 +1,28 @@
 @import 'common';
 
+$cardWidth: 320px;
+
 
 section {
     box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
     border: $card_border 0.5px solid;
 
-    width: 320px;
-    height: 400px;
+    width: $cardWidth;
     padding-top: 5px;
+    padding-bottom: 10px;
 
     margin: 11px;
 
     > div:first-child{
-        width: 320px;
-        height: 165px;
+        width: $cardWidth;
+        height: calc($cardWidth * 0.52);
 
         margin-bottom: 5px;
         display: flex;
         justify-content: space-around;
 
         img{
-            height: 165px;
+            height: 100%;
             
             &:hover{
                 opacity: 0.8;
@@ -62,7 +64,7 @@ section {
     }
 
     h2{
-        width: 300px;
+        width: 94%;
         text-align: center;
         margin: 0;
         margin: 0 auto;
@@ -76,7 +78,7 @@ section {
     }
 
     .parameters{
-        width: 300px;
+        width: 94%;
         height: 80px;
         margin: 0 auto;
 
@@ -105,7 +107,6 @@ section {
     .buttons{
 
         width: 186px;
-        height: 35px;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
@@ -146,9 +147,29 @@ section {
 
 
 
-
 @media (max-width: $mobile-width) {
-    section{
-    }
+    $cardWidth: 49vw;
 
+    section{
+        width: $cardWidth;
+        margin: 0;
+        
+
+        > div:first-child{
+            width: $cardWidth;
+            height: calc($cardWidth * 0.52);
+
+        }
+
+        .buttons{
+            width: 120px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            button:first-child{
+                margin-bottom: 10px;
+            }
+        }
+
+    }
 }

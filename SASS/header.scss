@@ -225,15 +225,42 @@ header{
 
 @media (max-width: $mobile-width) {
     header{
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 3%;
+        padding-right: 0;
+        height: 180px;
 
+        .row{
+            padding-left: 3%;
+            padding-right: 3%;
+        }
 
-        form{
-            position: absolute;
-            top: 110px;
-            left: 10%;
-            width: 80%;
+        .logo{
+            width: 190px;
+            div{
+                width: 190px;
+                img{
+                    height: 70px;
+                }
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+
+        .container{
+            form{
+                position: absolute;
+                width: 90%;
+                left: 5%;
+                top: 120px;
+            }
+
+            .right{
+                justify-content: right;
+                .phone{
+                    display: none;
+                }
+            }
         }
     }
 }

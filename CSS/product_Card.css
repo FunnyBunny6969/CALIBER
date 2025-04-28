@@ -16,19 +16,19 @@ section {
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
   border: rgb(200, 200, 200) 0.5px solid;
   width: 320px;
-  height: 400px;
   padding-top: 5px;
+  padding-bottom: 10px;
   margin: 11px;
 }
 section > div:first-child {
   width: 320px;
-  height: 165px;
+  height: 166.4px;
   margin-bottom: 5px;
   display: flex;
   justify-content: space-around;
 }
 section > div:first-child img {
-  height: 165px;
+  height: 100%;
 }
 section > div:first-child img:hover {
   opacity: 0.8;
@@ -68,7 +68,7 @@ section .avalibility p {
   margin-top: 1px;
 }
 section h2 {
-  width: 300px;
+  width: 94%;
   text-align: center;
   margin: 0;
   margin: 0 auto;
@@ -82,7 +82,7 @@ section h2:hover {
   opacity: 0.8;
 }
 section .parameters {
-  width: 300px;
+  width: 94%;
   height: 80px;
   margin: 0 auto;
 }
@@ -108,7 +108,6 @@ section .parameters .line p {
 }
 section .buttons {
   width: 186px;
-  height: 35px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -139,4 +138,23 @@ section .buttons .one_click {
 }
 section .buttons .one_click:hover {
   background-color: #5a5a5a;
+}
+
+@media (max-width: 450px) {
+  section {
+    width: 49vw;
+    margin: 0;
+  }
+  section > div:first-child {
+    width: 49vw;
+    height: 25.48vw;
+  }
+  section .buttons {
+    width: 120px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  section .buttons button:first-child {
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=product_Card.css.map */

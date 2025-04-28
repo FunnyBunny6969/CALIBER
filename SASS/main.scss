@@ -23,7 +23,6 @@ main{
 
         display: flex;
         flex-wrap: wrap;
-
     }
 
 }
@@ -59,15 +58,22 @@ main{
 
 @media (max-width: $mobile-width) {
     main{
-        max-width: 100%;
+        width: 100%;
+        max-width: none;
 
         aside{
             display: none;
         }
 
-        .crads{
+        .cards{
             width: 100%;
             justify-content: space-around;
         }
+    }
+
+    .buttonBox{
+        margin-top: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
