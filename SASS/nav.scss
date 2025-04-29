@@ -1,18 +1,31 @@
 @import 'common';
 
 nav{
+    min-width: 1500px;
     width: 100%;
     height: $navH;
+    transition: height 1s ease; 
     
     padding-left: 13%;
     padding-right: 13%;
-
-    min-width: 1500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     background-color: $peripheralCol;
 
     display: flex;
-    align-items: center;
+
+    .icon{
+        display: none;
+        min-height: 45px;
+        width: 86vw;
+
+        background-color: white; 
+        mask-image: url('/img/Hamburger_icon.png'); 
+        mask-size: contain; 
+        mask-repeat: no-repeat;
+        mask-position: center;
+    }
 
     a{
         text-decoration: none;
@@ -23,9 +36,9 @@ nav{
         height: 35px;
         padding-left: 22px;
         padding-right: 22px;
-        border-left: solid 0.5px gray;
+        border-right: solid 0.5px gray;
 
-        &:first-child{
+        &:last-child{
             border: none;
         }
 
@@ -35,35 +48,28 @@ nav{
     }
 }
 
-.mobile-nav{
-    display: none;
-}
 
 
 @media (max-width: $mobile-width) {
     nav{
-        &:not(.mobile-nav) {
-            display: none;
-        }
-    }
-
-
-    .mobile-nav{
-        display: block;
         min-width: 0;
-        padding-left: 5%;
-        padding-right: 5%;
-        
-            .buttons{
-            display: flex;
-            justify-content: space-between;
-            position: relative;
-            height: $navH;
-            padding-top: 3px;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 0;
+        overflow: hidden;
+        flex-direction: column;
 
-            img{
-                height: 39px;
-            }
+
+        .icon{
+            display: block;
+            height: 45px;
         }
+
+        a{
+            border: none;
+        }
+
     }
+
+
 }

@@ -420,6 +420,9 @@ main table thead tr {
     margin-top: 10px;
     height: 350px;
   }
+  main > div .info .container .set .card {
+    padding-right: 3%;
+  }
   main > div .info .other {
     height: 450px;
   }

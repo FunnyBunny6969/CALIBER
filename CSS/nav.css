@@ -13,14 +13,26 @@ a {
 }
 
 nav {
+  min-width: 1500px;
   width: 100%;
   height: 45px;
+  transition: height 1s ease;
   padding-left: 13%;
   padding-right: 13%;
-  min-width: 1500px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #424242;
   display: flex;
-  align-items: center;
+}
+nav .icon {
+  display: none;
+  min-height: 45px;
+  width: 86vw;
+  background-color: white;
+  mask-image: url("/img/Hamburger_icon.png");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 nav a {
   text-decoration: none;
@@ -33,37 +45,29 @@ nav a {
   height: 35px;
   padding-left: 22px;
   padding-right: 22px;
-  border-left: solid 0.5px gray;
+  border-right: solid 0.5px gray;
 }
-nav a:first-child {
+nav a:last-child {
   border: none;
 }
 nav a:hover {
   color: rgb(221, 221, 221);
 }
 
-.mobile-nav {
-  display: none;
-}
-
 @media (max-width: 450px) {
-  nav:not(.mobile-nav) {
-    display: none;
-  }
-  .mobile-nav {
-    display: block;
+  nav {
     min-width: 0;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 0;
+    overflow: hidden;
+    flex-direction: column;
   }
-  .mobile-nav .buttons {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+  nav .icon {
+    display: block;
     height: 45px;
-    padding-top: 3px;
   }
-  .mobile-nav .buttons img {
-    height: 39px;
+  nav a {
+    border: none;
   }
 }/*# sourceMappingURL=nav.css.map */
