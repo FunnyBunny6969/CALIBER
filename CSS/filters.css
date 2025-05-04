@@ -37,7 +37,15 @@ a {
   font-weight: bolder;
   line-height: 20px;
 }
-.headline:hover::after {
+@keyframes anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.headline:not(#empty):hover::after {
   content: attr(data-title);
   font-size: 16px;
   color: #424242;
@@ -54,6 +62,9 @@ a {
   border: 1px solid white;
   border-radius: 6px;
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
+  opacity: 0;
+  animation: anim 0.2s ease forwards;
+  animation-delay: 1s;
 }
 
 .listFilt {
@@ -97,26 +108,10 @@ a {
   font-family: "Roboto", sans-serif;
   line-height: 13px;
 }
-.listFilt div:not(.headline):not(.container) span {
-  font-size: 20px;
-  color: #424242;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  height: 25px;
-  border: 1px solid #ffd800;
-  border-radius: 3px;
-  padding-left: 7px;
-  padding-right: 7px;
-  position: absolute;
-  right: 0;
-}
 
 .clickable + .container {
   height: 0;
-}
-
-.clickable:active + .container {
-  height: 200px;
+  max-height: 200px;
 }
 
 .rangeFilt {
@@ -134,7 +129,7 @@ a {
   border-radius: 9px/17px;
   box-shadow: 0 0 10px rgba(87, 87, 87, 0.3);
 }
-.rangeFilt .range span {
+.rangeFilt .range input {
   width: 43%;
   height: 35px;
   border: 1px solid rgb(200, 200, 200);
@@ -144,47 +139,29 @@ a {
   color: #424242;
   font-family: "Roboto", sans-serif;
 }
-.rangeFilt .switch_line {
-  width: 100%;
-  height: 17px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 22px;
-  align-items: center;
-  position: relative;
-}
-.rangeFilt .switch_line input::-webkit-slider-thumb {
-  border-radius: 3px;
-  background-color: rgb(255, 115, 0);
-  width: 12px;
-  height: 17px;
-  box-shadow: 0 5px 10px rgba(87, 87, 87, 0.3);
-  pointer-events: all;
-  cursor: pointer;
-  -webkit-appearance: none;
-}
-.rangeFilt .switch_line input {
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  background: none;
-  -webkit-appearance: none;
-  pointer-events: none;
+
+.filtBtn {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 250px;
+  background-color: black;
+  opacity: 0.7;
   z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.rangeFilt .switch_line .track {
-  height: 5px;
-  background-color: #ffd800;
-  position: absolute;
-  width: 80%;
-  left: 20%;
-  z-index: 0;
+.filtBtn img {
+  width: 20px;
+  height: 20px;
 }
-.rangeFilt .switch_line .bottomTrack {
-  height: 5px;
-  background-color: #424242;
-  position: absolute;
-  width: 100%;
-  left: 2px;
-  z-index: -1;
+
+@media (max-width: 900px) {
+  .filtBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=filters.css.map */

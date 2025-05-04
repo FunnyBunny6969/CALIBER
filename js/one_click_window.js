@@ -1,7 +1,4 @@
-setTimeout(() => {  
-
-
-
+function add_one_click_window(){
 
     const btn = document.querySelectorAll('.one_click');
     for (let i = 0; i < btn.length; i++) {
@@ -11,6 +8,7 @@ setTimeout(() => {
             dialog.style.pointerEvents = 'all';
         });
     }
+
 
     const window = document.querySelectorAll('dialog');
     if (window.length != 0){
@@ -22,6 +20,7 @@ setTimeout(() => {
         });
     }
 
+
     const krestik = document.querySelectorAll('#krestik');
     if(krestik.length != 0){
         krestik[0].addEventListener('click', function(event){
@@ -30,9 +29,6 @@ setTimeout(() => {
             window.style.pointerEvents = 'none';
         })
     }
-
-
-
 
 
     const contact_form = document.querySelectorAll('#contact_info');
@@ -47,9 +43,7 @@ setTimeout(() => {
             alert('Наш специалист скоро с вами свяжется!');
         })
     }
+}
 
 
-
-
-}, 100); 
-
+setTimeout(() => {add_one_click_window()}, 200); 

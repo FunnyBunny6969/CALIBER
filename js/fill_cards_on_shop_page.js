@@ -20,6 +20,8 @@ function getData() {
                 displayEl(guns[i]);
             }
             cards_on_page += increase;
+
+            add_one_click_window();
         })
         .catch(error => {
             console.error('Ошибка:', error);
@@ -123,3 +125,30 @@ getData();
 
 const btn = document.querySelectorAll('.show_more')[0];
 btn.addEventListener('click', function(event){getData();});
+
+
+let filters_visability = false;
+document.querySelector('.filtBtn').addEventListener('click', function() {
+    filters_visability = !filters_visability;
+    if (filters_visability){
+        document.querySelector('aside').style.display = 'block';
+        document.querySelector('.dimmer').style.display = 'block';
+        this.style.left = '80vw';
+        this.style.opacity = '1';
+        this.style.backgroundColor = 'white';
+        this.querySelector('img').src = 'img/krestik.jpg';
+
+        document.querySelector('body').style.overflow = 'hidden';
+        document.querySelector('body').style.height = '100%';
+    } else{
+        document.querySelector('aside').style.display = 'none';
+        document.querySelector('.dimmer').style.display = 'none';
+        this.style.left = '0';
+        this.style.opacity = '0.7';
+        this.style.backgroundColor = 'black';
+        this.querySelector('img').src = 'img/funnel.png';
+        
+        document.querySelector('body').style.overflow = 'scroll';
+        document.querySelector('body').style.height = 'auto';
+    }
+});

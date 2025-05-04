@@ -390,21 +390,16 @@ main table thead tr {
   border-bottom: 2px solid #959595;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1350px) {
   main {
     width: 100%;
     height: none;
   }
   main > div {
-    display: block;
     height: auto;
   }
   main > div .photos {
-    width: 100%;
-  }
-  main > div .info {
-    margin: 0;
-    width: 100%;
+    width: 60%;
   }
   main > div .info .container {
     display: block;
@@ -412,7 +407,6 @@ main table thead tr {
   }
   main > div .info .container .equipment {
     width: 100%;
-    margin-top: 10px;
   }
   main > div .info .container .equipment .choice.active::after {
     content: "";
@@ -429,6 +423,7 @@ main table thead tr {
   }
   main > div .info .other {
     height: 450px;
+    margin-bottom: 0;
   }
   main > div .info .other .blocks {
     justify-content: space-around;
@@ -438,5 +433,59 @@ main table thead tr {
   }
   main > div .info .other .other-info-box {
     height: 350px;
+  }
+}
+@media (max-width: 900px) {
+  main > div {
+    display: block;
+    height: auto;
+  }
+  main > div .photos {
+    width: 100%;
+  }
+  main > div .info {
+    margin: 0;
+    width: 100%;
+  }
+  main > div .info .container {
+    display: block;
+    height: auto;
+  }
+  main > div .info .other {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  main > div {
+    height: auto;
+  }
+  main > div .info .container .equipment .choice {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  main > div .info .container .equipment .choice h2 {
+    padding-left: 0;
+  }
+  main > div .info .container .equipment .choice div {
+    width: auto;
+  }
+  main > div .info .other {
+    height: auto;
+  }
+  main > div .info .other .blocks {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  main > div .info .other .blocks .block {
+    margin: 5px;
+    padding: 3px;
+  }
+  main > div .info .other .blocks .block svg {
+    width: 30px;
+  }
+  main > div .info .other .other-info-box {
+    position: static;
+    height: auto;
   }
 }/*# sourceMappingURL=product-page.css.map */

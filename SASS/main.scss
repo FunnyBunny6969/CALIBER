@@ -10,12 +10,18 @@ main{
     align-items: flex-start;
 
 
+    .dimmer{
+        display: none;
+    }
+
+
     aside{
         margin-top: 11px;
         margin-right: 11px;
         width: 23%;
         box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
         border: $card_border 0.5px solid;
+
     }
 
     .cards{
@@ -56,14 +62,39 @@ main{
 
 
 
-
-@media (max-width: $mobile-width) {
+@media (max-width: $notebook_width){
     main{
         width: 100%;
-        max-width: none;
+    }
+}
 
+
+
+@media (max-width: $tablet-width) {
+    main{
+
+        .dimmer{
+            z-index: 1;
+            position: fixed; 
+            top: 0;             
+            left: 0;            
+            width: 100vw;        
+            height: 100%;       
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
         aside{
             display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 80%;
+            height: 100%;
+            overflow-y: scroll;
+            z-index: 2;
+            background-color: white;
+            margin-top: 0;
+
+
         }
 
         .cards{
@@ -77,4 +108,5 @@ main{
         padding-left: 10%;
         padding-right: 10%;
     }
+    
 }

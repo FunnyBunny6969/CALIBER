@@ -15,15 +15,18 @@
     img{
         width: 20px;
         height: 20px;
-
-
     }
 
     h2{
         @include FiltHeader;
         line-height: 20px;
     }
-    &:hover::after { 
+
+    @keyframes anim {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    &:not(#empty):hover::after { 
         content: attr(data-title);
         @include text-style(16px);
         position: absolute;
@@ -38,8 +41,11 @@
         border: 1px solid $bgCol;
         border-radius: 6px;
         box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
-    }
+        opacity: 0;
 
+        animation: anim 0.2s ease forwards;
+        animation-delay: 1s; 
+    }
 }
 
 
@@ -92,28 +98,29 @@
             line-height: 13px;
         }
 
-        span{
-            @include text-style(20px);
-            align-items: center;
-            height: 25px;
-            border: 1px solid $accentCol;
-            border-radius: 3px;
-            padding-left: 7px;
-            padding-right: 7px;
-            position: absolute;
-            right: 0;
-        }
+        // span{
+        //     @include text-style(20px);
+        //     align-items: center;
+        //     height: 25px;
+        //     border: 1px solid $accentCol;
+        //     border-radius: 3px;
+        //     padding-left: 7px;
+        //     padding-right: 7px;
+        //     position: absolute;
+        //     right: 0;
+        // }
     }
 }
 
 
 .clickable + .container{
     height: 0;
+    max-height: 200px;
 }
 
-.clickable:active + .container{
-    height: 200px;
-}
+// .clickable:active + .container{
+//     height: 200px;
+// }
 
 
 .rangeFilt{
@@ -132,7 +139,7 @@
             box-shadow: 0 0 10px rgba(87, 87, 87, 0.3);
         }
 
-        span{
+        input{
             width: 43%;
             height: 35px;
             border: 1px solid $card_border;
@@ -144,58 +151,91 @@
 
     }
     
-    .switch_line{
-        width: 100%;
-        height: 17px;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 22px;
-        align-items: center ;
-        position: relative;
+//     .switch_line{
+//         width: 100%;
+//         height: 17px;
+//         display: flex;
+//         justify-content: space-between;
+//         margin-top: 22px;
+//         align-items: center ;
+//         position: relative;
 
-        input::-webkit-slider-thumb{
-            border-radius: 3px;
-            background-color: rgb(255, 115, 0);
-            width: 12px;
-            height: 17px;
-            box-shadow: 0 5px 10px rgba(87, 87, 87, 0.3);
+//         input::-webkit-slider-thumb{
+//             border-radius: 3px;
+//             background-color: rgb(255, 115, 0);
+//             width: 12px;
+//             height: 17px;
+//             box-shadow: 0 5px 10px rgba(87, 87, 87, 0.3);
 
-            pointer-events: all;
-            cursor: pointer;
-            -webkit-appearance: none;
+//             pointer-events: all;
+//             cursor: pointer;
+//             -webkit-appearance: none;
             
-        }
+//         }
 
-        input {
-            position: absolute;
-            width: 100%;
-            height: 5px;
-            background: none;
-            -webkit-appearance: none;
-            pointer-events: none;
-            z-index: 1;
-        }
+//         input {
+//             position: absolute;
+//             width: 100%;
+//             height: 5px;
+//             background: none;
+//             -webkit-appearance: none;
+//             pointer-events: none;
+//             z-index: 1;
+//         }
 
-        .track{
-            height: 5px;
-            background-color: $accentCol;
-            position: absolute;
-            width: 80%;
-            left: 20%;
-            z-index: 0;
-        }
+//         .track{
+//             height: 5px;
+//             background-color: $accentCol;
+//             position: absolute;
+//             width: 80%;
+//             left: 20%;
+//             z-index: 0;
+//         }
 
-        .bottomTrack{
-            height: 5px;
-            background-color: $peripheralCol;
-            position: absolute;
-            width: 100%;
-            left: 2px;
-            z-index: -1;
-        }
-    }
+//         .bottomTrack{
+//             height: 5px;
+//             background-color: $peripheralCol;
+//             position: absolute;
+//             width: 100%;
+//             left: 2px;
+//             z-index: -1;
+//         }
+//     }
     
     
 }
 
+.filtBtn{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 250px;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
 
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media (max-width: $tablet-width) {
+    .filtBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+}

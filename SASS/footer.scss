@@ -43,9 +43,7 @@ footer{
     .phone{
         height: 85px;
         width: 300px;
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
+        padding-top: 15px;
 
 
         .links{
@@ -53,9 +51,9 @@ footer{
 
             display: flex;
             justify-content: flex-end;
+            flex-wrap: wrap;
             align-items: center;
 
-            height: 25px;
 
 
             p{
@@ -67,17 +65,21 @@ footer{
             }                
 
             a{
-                img{
+                .img{
                     width: 20px;
                     height: 20px;
                     margin-left: 7px;
+                    
+                    background-color: white; 
+                    mask-size: contain; 
+                    mask-repeat: no-repeat;
+                    mask-position: center;
                 }
             }
         }
 
         p{
             @include text-style(12px, white);
-            margin-top: 0;
             text-align: right;
             text-decoration: underline;
             font-style:italic;
@@ -101,5 +103,6 @@ footer{
                 height: 60px;
             }
         }
+
     }
 }

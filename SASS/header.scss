@@ -223,11 +223,24 @@ header{
 }
 
 
-@media (max-width: $mobile-width) {
+
+@media (max-width: $notebook_width) {
+    header{
+        padding-left: 3%;
+
+        .container{
+            margin-left: calc(250px + 3%);
+        }
+    }
+}
+
+
+
+@media (max-width: $tablet_width) {
     header{
         padding-left: 3%;
         padding-right: 0;
-        height: 180px;
+        height: 205px;
 
         .row{
             padding-left: 3%;
@@ -235,9 +248,10 @@ header{
         }
 
         .logo{
-            width: 190px;
+            top: 32px;
+            width: auto;
             div{
-                width: 190px;
+                width: auto;
                 img{
                     height: 70px;
                 }
@@ -248,19 +262,34 @@ header{
         }
 
         .container{
+            margin-left: 0;
+            width: 94vw;
+            justify-content: right;
             form{
                 position: absolute;
-                width: 90%;
-                left: 5%;
-                top: 120px;
+                width: 94%;
+                left: 3%;
+                top: 145px;
             }
 
             .right{
                 justify-content: right;
+                width: auto;
+            }
+        }
+    }
+}
+
+
+@media (max-width: $mobile_width) {
+    header{
+        .container{
+            .right{
                 .phone{
                     display: none;
                 }
             }
         }
     }
+    
 }

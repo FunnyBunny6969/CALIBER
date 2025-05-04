@@ -68,7 +68,7 @@ main .filter {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   main {
     height: 62vh;
   }

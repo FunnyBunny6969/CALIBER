@@ -185,6 +185,8 @@ fetch('../database/base.xml')
         
         equipment_block_builder(1);
 
+        add_event_for_equipment();
+        make_gallery_clickable();
 
 
         }

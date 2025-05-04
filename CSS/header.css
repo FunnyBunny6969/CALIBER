@@ -197,21 +197,30 @@ header .container .right .basket div .count {
   font-family: "Roboto", sans-serif;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1350px) {
+  header {
+    padding-left: 3%;
+  }
+  header .container {
+    margin-left: calc(250px + 3%);
+  }
+}
+@media (max-width: 900px) {
   header {
     padding-left: 3%;
     padding-right: 0;
-    height: 180px;
+    height: 205px;
   }
   header .row {
     padding-left: 3%;
     padding-right: 3%;
   }
   header .logo {
-    width: 190px;
+    top: 32px;
+    width: auto;
   }
   header .logo div {
-    width: 190px;
+    width: auto;
   }
   header .logo div img {
     height: 70px;
@@ -219,15 +228,23 @@ header .container .right .basket div .count {
   header .logo p {
     font-size: 12px;
   }
+  header .container {
+    margin-left: 0;
+    width: 94vw;
+    justify-content: right;
+  }
   header .container form {
     position: absolute;
-    width: 90%;
-    left: 5%;
-    top: 120px;
+    width: 94%;
+    left: 3%;
+    top: 145px;
   }
   header .container .right {
     justify-content: right;
+    width: auto;
   }
+}
+@media (max-width: 600px) {
   header .container .right .phone {
     display: none;
   }

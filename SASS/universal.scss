@@ -26,6 +26,10 @@ article{
         p{
             @include text-style(15px);
         }
+
+        video{
+            width: 100%;
+        }
     }
 }
 

@@ -7,46 +7,42 @@ boxes.forEach(box => {
 
         for (let i = 0; i < 4; i++) {
             cards[i].style.zIndex = '0';
+            cards[i].style.display = 'none';
             btns[i].classList.remove('active'); 
         }
-        cards[self_id-1].style.zIndex = '1';
+        cards[self_id- 1].style.zIndex = '1';
+        cards[self_id - 1].style.display = 'block';
         btns[self_id - 1].classList.add('active'); 
-
     });
 });
 
-setTimeout(() => { //тк элементы choice для выбора комплектации создаются в другом скрипте
-    // при загрузке страницы их не существует, они появятся (или не появятся) через какое-то время
-    // да способ далеко не самый изящный, но в целом, пользователь обойдётся первые 100 милисекунд без кликания
+function add_event_for_equipment(){ 
 
-const equipments = document.querySelectorAll('div.choice');
+    const equipments = document.querySelectorAll('div.choice');
+    if (equipments.length != 0){
+        equipments.forEach(equipment => {
+            equipment.addEventListener('click', function(event){
+                const self_id = this.id;
+                for (let i = 0; i < equipments.length; i++)
+                    equipments[i].classList.remove('active');
+                equipments[self_id - 1].classList.add('active');
 
-if (equipments.length != 0){
-    equipments.forEach(equipment => {
-        equipment.addEventListener('click', function(event){
-            const self_id = this.id;
-            for (let i = 0; i < equipments.length; i++)
-                equipments[i].classList.remove('active');
-            equipments[self_id - 1].classList.add('active');
-
-            equipment_block_builder(self_id);
-
+                equipment_block_builder(self_id);
+            });
         });
-    });
+    }
 }
-}, 100); 
 
-setTimeout(() => {  //этот же прикол с картинками
-
-const images = document.querySelectorAll('img.general');
-if (images.length != 0){
-    images.forEach(image => {
-        image.addEventListener('click', function(event){
-            images[0].src = this.src;
+function make_gallery_clickable(){
+    const images = document.querySelectorAll('img.general');
+    if (images.length != 0){
+        images.forEach(image => {
+            image.addEventListener('click', function(event){
+                images[0].src = this.src;
+            });
         });
-    });
+    }
 }
-}, 100); 
 
 
 
