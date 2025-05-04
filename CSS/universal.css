@@ -12,6 +12,10 @@ a {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto.ttf") format("truetype");
+}
 article {
   width: 70%;
   margin: 0 auto;
@@ -25,14 +29,14 @@ article .main-cont {
 article .main-cont h2 {
   font-size: 30px;
   color: #4f4f4f;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   margin: 0;
 }
 article .main-cont ul li {
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
 article .main-cont ul li span {
@@ -41,7 +45,7 @@ article .main-cont ul li span {
 article .main-cont p {
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 450px) {

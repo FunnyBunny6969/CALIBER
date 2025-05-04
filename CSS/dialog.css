@@ -12,6 +12,10 @@ a {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto.ttf") format("truetype");
+}
 dialog {
   pointer-events: none;
   display: none;
@@ -43,7 +47,7 @@ dialog form h2 {
   border-bottom: 1px solid rgb(200, 200, 200);
   font-size: 20px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0;
@@ -55,7 +59,7 @@ dialog form label {
   width: 100%;
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   line-height: 40px;
 }
 dialog form input {
@@ -74,7 +78,7 @@ dialog form button {
   line-height: 40px;
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   right: 0;
   margin-top: 20px;
   color: white;

@@ -12,6 +12,10 @@ a {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto.ttf") format("truetype");
+}
 main {
   height: 60vh;
   width: 100%;
@@ -26,7 +30,7 @@ main {
 main h1 {
   font-size: 70px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   color: white;
   text-align: center;
   width: 100%;

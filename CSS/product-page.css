@@ -12,6 +12,10 @@ a {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto.ttf") format("truetype");
+}
 main {
   width: 1350px;
   margin: 0 auto;
@@ -20,7 +24,7 @@ main {
 main h1 {
   font-size: 30px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   padding-left: 22px;
   margin: 0;
   margin-bottom: 15px;
@@ -85,7 +89,7 @@ main > div .info .container .equipment {
 main > div .info .container .equipment h2 {
   font-size: 23px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   margin-bottom: 20px;
   padding-left: 25px;
@@ -114,14 +118,14 @@ main > div .info .container .equipment .choice div {
 main > div .info .container .equipment .choice div .now {
   font-size: 20px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
   text-align: right;
 }
 main > div .info .container .equipment .choice div .was {
   font-size: 14px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   text-align: right;
   text-decoration: line-through;
 }
@@ -146,14 +150,14 @@ main > div .info .container .equipment .choice.active::after {
 main > div .info .container .equipment p {
   font-size: 12px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   padding-left: 20px;
   line-height: 12px;
 }
 main > div .info .container .equipment .avalibility {
   font-size: 18px;
   color: #22B110;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   padding-left: 50px;
   line-height: 12px;
 }
@@ -172,7 +176,7 @@ main > div .info .container .equipment .buttons button {
 main > div .info .container .equipment .buttons .buy {
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   background-color: #ffd800;
 }
 main > div .info .container .equipment .buttons .buy:hover {
@@ -181,7 +185,7 @@ main > div .info .container .equipment .buttons .buy:hover {
 main > div .info .container .equipment .buttons .one_click {
   font-size: 15px;
   color: white;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   background-color: #424242;
 }
 main > div .info .container .equipment .buttons .one_click:hover {
@@ -200,7 +204,7 @@ main > div .info .container .set {
 main > div .info .container .set h2 {
   font-size: 20px;
   color: orangered;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   font-weight: normal;
   margin-bottom: 10px;
@@ -237,7 +241,7 @@ main > div .info .container .set .card .image .sale {
   padding: 5px;
   font-size: 12px;
   color: white;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
 }
 main > div .info .container .set .card .right {
   flex: 2;
@@ -245,7 +249,7 @@ main > div .info .container .set .card .right {
 main > div .info .container .set .card .right p {
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
 }
 main > div .info .container .set .card .right .num_price {
   display: flex;
@@ -254,7 +258,7 @@ main > div .info .container .set .card .right .num_price {
 main > div .info .container .set .card .right .num_price .num {
   font-size: 15px;
   color: grey;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
 }
 main > div .info .container .set .card .right .num_price .price {
   width: 80px;
@@ -265,21 +269,21 @@ main > div .info .container .set .card .right .num_price .price {
 main > div .info .container .set .card .right .num_price .price .now {
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
   text-align: right;
 }
 main > div .info .container .set .card .right .num_price .price .was {
   font-size: 15px;
   color: grey;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   text-align: right;
   text-decoration: line-through;
 }
 main > div .info .container .set .plus {
   font-size: 40px;
   color: orangered;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -316,7 +320,7 @@ main > div .info .other .blocks .block svg {
 main > div .info .other .blocks .block span {
   font-size: 16px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
 main > div .info .other .blocks .block.active {
@@ -334,13 +338,13 @@ main > div .info .other .other-info-box {
 main > div .info .other .other-info-box h2 {
   font-size: 20px;
   color: grey;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
 main > div .info .other .other-info-box ul li {
   font-size: 15px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
 main > div .info .other .other-info-box ul li span {
@@ -377,7 +381,7 @@ main table tr td, main table tr th {
   padding-left: 20px;
   font-size: 16px;
   color: #424242;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Roboto", sans-serif;
 }
 main table tr:hover, main table thead tr {
   background-color: #eeeeee;
