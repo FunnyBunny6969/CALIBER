@@ -184,11 +184,8 @@ fetch('../database/base.xml')
         container.innerHTML = content;
         
         equipment_block_builder(1);
-
         add_event_for_equipment();
         make_gallery_clickable();
-
-
         }
         else{
             alert('Товара с таким ID в базе не обнаружено');

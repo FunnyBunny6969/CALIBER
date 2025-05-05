@@ -19,6 +19,7 @@ a {
 article {
   width: 70%;
   margin: 0 auto;
+  position: relative;
 }
 article .main-cont {
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
@@ -39,19 +40,35 @@ article .main-cont ul li {
   font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
-article .main-cont ul li span {
-  font-weight: bold;
-}
 article .main-cont p {
   font-size: 15px;
   color: #424242;
   font-family: "Roboto", sans-serif;
 }
+article .main-cont span {
+  font-weight: bold;
+}
 article .main-cont video {
   width: 100%;
 }
+article .main-cont #map {
+  width: 90%;
+  margin: 0 auto;
+  height: 50vh;
+}
+article .main-cont .flex-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+article .main-cont .flex-cont img {
+  width: 30%;
+  min-width: 250px;
+  margin: 10px;
+}
 
-@media (max-width: 600px) {
+@media (max-width: 1350px) {
   article {
     width: 98%;
   }

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОНТАКТЫ</title>
+
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/filters.css">
+    <link rel="stylesheet" href="CSS/universal.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+
+        <div class="row">
+            <div class="messangers">
+                <p>Мы в соц сетях:</p>
+                <a href="#">
+                    <img src="img/vk.png">
+                </a>
+                <a href="#">
+                    <img src="img/ok.png">
+                </a>
+                <a href="#">
+                    <img src="img/insta.png">
+                </a>
+                <a href="#">
+                    <img src="img/youtube.png">
+                </a>
+            </div>
+        </div>
+        
+        <a href="index.html">
+            <div class="logo">
+                <div>
+                    <img src="img/logo.svg">
+                </div>
+                <p>Магазин пневматического оружия</p>
+            </div>
+
+        </a>
+
+
+        <div class="container">
+
+            <form>
+                <input type="search"
+                placeholder="Поиск пневматики по каталогу оружия"/>
+                <button type="submit">
+                    <img src="img/loop.jpg">
+                </button>
+            </form>
+
+            <div class="right">
+
+                <div class="phone">
+                    
+                    <div class="links">
+
+                        <p>+375 29 507 75 90</p>
+
+                        <a href="#">
+                            <img src="img/telega.png">
+                        </a>
+                        <a href="#">
+                            <img src="img/whatsapp.png">
+                        </a>
+                        <a href="#">
+                            <img src="img/viber.png">
+                        </a>
+                    </div>
+
+                    <p>ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</p>
+
+                </div>
+
+
+                <div class="basket">
+                    <img src="img/basket.png">
+                    <div>
+                        <span class="count">7</span>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+    
+    </header>
+
+    <nav>
+        <div class="icon"></div>
+        <a href="index.html">Главная</a>
+        <a href="shop.html">Каталог оружия</a>
+        <a href="#">Рассрочка</a>
+        <a href="delivery.html">доставка</a>
+        <a href="#">оплата и гарантия</a>
+        <a href="#">о компании</a>
+        <a href="#">контакты</a>
+    </nav>
+
+    <article>
+        <div class="main-cont">
+            <h2>Контакты</h2>
+            <ul>
+                <li><strong>Адрес пункта самовывоза:</strong> 220035, г. Минск, ул. Тимирязева 65Б.</li>
+                <li><strong>Время работы пункта самовывоза:</strong> с 10:00 до 18:00 пн.-пт.</li>
+                <li><em>Внимание!</em> Это пункт самовывоза, в котором возможно только забрать ваш предварительно сделанный заказ. Обязательно дождитесь подтверждения заказа нашим менеджером.</li>
+                <li><strong>Время работы колл-центра:</strong> с 10:00 до 18:00 пн.-пт.</li>
+                <li><em>Внимание!</em> Время обработки заказов и звонков в выходные и праздничные дни может составлять несколько часов или быть перенесено на ближайший рабочий день.</li>
+                <li><strong>Прием заказов онлайн:</strong> круглосуточно без выходных.</li>
+                <li><strong>Телефон:</strong> +375 29 507 75 90.</li>
+                <li><strong>E-mail:</strong> <a href="#">info@caliber.by</a>.</li>
+                <li><strong>Группа ВК:</strong> <a href="#">https://vk.com/minsk.caliber</a>.</li>
+                <li><strong>Группа ОК:</strong> <a href="#">https://ok.ru/minsk.caliber</a>.</li>
+                <li><strong>YouTube канал:</strong> <a href="#">https://www.youtube.com/caliber</a>.</li>
+            </ul>
+            <div id="map"></div>
+        </div>
+    </article>
+
+
+
+    <footer>
+        <div class="logo">
+            <div class="img"></div>
+            <p>Магазин пневматического оружия</p>
+        </div>
+        <div class="phone">
+            <div class="links">
+                <p>+375 29 507 75 90</p>
+                <a href="#">
+                    <div class="img" style="mask-image: url(img/telega.png);"></div>
+                </a>
+                <a href="#">
+                    <div class="img" style="mask-image: url(img/whatsapp.png);"></div>
+                </a>
+                <a href="#">
+                    <div class="img" style="mask-image: url(img/viber.png);"></div>
+                </a>
+            </div>
+
+            <p>ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</p>
+        </div>
+    </footer>
+
+
+<script>
+    ymaps.ready(init);
+    function init() {
+        var myMap = new ymaps.Map("map", {
+            center: [53.9023, 27.5590], 
+            zoom: 15
+        });
+
+        var myPlacemark = new ymaps.Placemark([53.9023, 27.5590], {
+            balloonContentHeader: '<b>Магазин пневматического оружия "CALIBER"</b>',
+            balloonContentBody: 'Оружие и средства самозащиты, товары для рыбалки, <br> товары для отдыха и туризма, товары для охоты и спорта.',
+            balloonContentFooter: '⭐ 4.8 <br> Минск, улица Колотушкина, 65Б <br> +375 29 507 75 90<br> <a href="index.html">caliber.by</a>',
+            hintContent: 'Нажмите для подробностей'
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+        myPlacemark.balloon.open();
+    }
+</script>
+    <script src="js/burger-click.js"></script>
+
+</body>

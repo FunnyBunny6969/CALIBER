@@ -1,5 +1,6 @@
 function equipment_block_builder(self_id){
     const equipments = document.querySelectorAll('div.choice');
+    if(equipments.length == 0) return;
 
     let header = equipments[self_id-1].getElementsByTagName('h2')[0].textContent;
     let set = document.getElementsByClassName('set')[0];
