@@ -44,6 +44,3 @@ function add_one_click_window(){
         })
     }
 }
-
-
-setTimeout(() => {add_one_click_window()}, 200); 
