@@ -35,7 +35,6 @@ function add_event_for_equipment(){
 
 function make_gallery_clickable(){
     const images = document.querySelectorAll('img.general');
-    console.log(images.length);
     if (images.length != 0){
         images.forEach(image => {
             image.addEventListener('click', function(event){

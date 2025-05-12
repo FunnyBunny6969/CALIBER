@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>О КОМАНИИ</title>
+    <title>КОРЗИНА</title>
 
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/header.css">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/filters.css">
     <link rel="stylesheet" href="CSS/universal.css">
+    <link rel="stylesheet" href="CSS/basket.css">
 </head>
 <body>
     <header>
@@ -104,22 +105,29 @@
 
     <article>
         <div class="main-cont">
-            <h2>О компании</h2>
-            <p>Мы уже более 2-х лет на рынке, за это время мы:</p>
-            <ul>
-                <li>Посетили 4 крупных оружейных форума и выставок, где познакомились и начали работать с официальными представителями ведущих брендов;</li>
-                <li>Собрали более 50.000 просмотров на YouTube канале нашего магазина;</li>
-                <li>Собрали более 1.000 подписчиков в соц.сетях ВКонтакте и Одноклассники;</li>
-                <li>Более 5.000 клиентов;</li>
-                <li>Собрали классную команду, которая трудится для того, чтобы вам было удобно заказывать, эксплуатировать и обслуживать ваше пневматическое оружие.</li>
-            </ul>
-
-            <p>Наша миссия – помощь в покупке легального пневматического оружия. Мы магазин, а не производственники. Наша главная миссия заключается в том, чтобы помочь вам, покупателям, легально приобрести качественное пневматическое оружие. Ознакомить вас, потенциального владельца, со всеми тонкостями и нюансами. Мы полностью берем на себя все гарантийные обязательства после продажи. Мы всегда готовы осуществить не гарантийный ремонт, если он будет нужен даже через 5, 10, 15, 20 лет после покупки.</p>
-
-            <p>Мы строим наше дело так, чтобы выбирая наш магазин 1 раз, вы закрыли вопрос с покупкой, обслуживанием, ремонтом и всеми сопутствующими вопросами раз и навсегда, при этом оставаясь в доступном ценовом сегменте.</p>
-            <video width="640" height="360" controls>
-                <source src="video.mp4" type="video/mp4">
-            </video>
+            <h2>КОРЗИНА</h2>
+            <table class="basket">
+                <tbody>
+                    <!-- <tr>
+                        <td>
+                            <img src="img/krestik.jpg" alt="" class="deleter">
+                        </td>
+                        <td>
+                            <img src="img/desert eagle.jpg" alt="">
+                        </td>
+                        <td>Пневматический пистолет Stalker S1911RD 4,5 мм</td>
+                        <td id="price">350</td>
+                        <td>
+                            <div class="counter">
+                                <div class="plus">+</div>
+                                <div class="count">1</div>
+                                <div class="minus">-</div>
+                            </div>
+                        </td>
+                        <td id="sum">350</td>
+                    </tr> -->
+                </tbody>
+            </table>
         </div>
     </article>
 
@@ -153,5 +161,8 @@
 
     <script src="js/burger-click.js"></script>
     <script src="js/basket.js"></script>
+    <script>
+        listBasket();
+    </script>
 
 </body>

@@ -31,6 +31,13 @@ fetch('../database/base.xml')
             document.getElementsByClassName('buttons')[0].innerHTML = '<button class="one_click">Заказать</button>';
             document.getElementsByClassName('one_click')[0].style.width = '100%';
         }
+        else{
+            let buy_btn = document.querySelector('.buy');
+            buy_btn.setAttribute('id', guns[gun].querySelector('prod_code').textContent);
+        }
+
+
+
 
 
 
@@ -186,6 +193,8 @@ fetch('../database/base.xml')
         equipment_block_builder(1);
         add_event_for_equipment();
         make_gallery_clickable();
+        add_one_click_window();
+        bind_buy_button();
         }
         else{
             alert('Товара с таким ID в базе не обнаружено');

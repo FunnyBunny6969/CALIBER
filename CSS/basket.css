@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto.ttf") format("truetype");
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-height: 60vh;
+}
+table tr {
+  height: 120px;
+  width: 100%;
+  border-bottom: 2px solid rgb(200, 200, 200);
+  position: relative;
+}
+table tr td {
+  height: 100%;
+  border: none;
+  font-size: 20px;
+  color: #424242;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+table tr td .deleter {
+  height: 17px;
+  width: 17px;
+}
+table tr td .deleter:hover {
+  background-color: red;
+}
+table tr td img {
+  width: 150px;
+  max-width: 150px;
+}
+table tr td .counter {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px;
+}
+table tr td .counter .plus, table tr td .counter .minus, table tr td .counter .count {
+  width: 60px;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #424242;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  border: 1px solid rgb(200, 200, 200);
+}
+table tr td .counter .plus:hover, table tr td .counter .minus:hover {
+  background-color: rgb(200, 200, 200);
+}
+table tr td .counter .plus {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+table tr td .counter .minus {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  table tr td img {
+    width: 100%;
+  }
+  table tr td:nth-child(3) {
+    display: none;
+  }
+}/*# sourceMappingURL=basket.css.map */

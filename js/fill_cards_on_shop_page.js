@@ -22,6 +22,7 @@ function getData() {
             cards_on_page += increase;
 
             add_one_click_window();
+            bind_buy_button();
         })
         .catch(error => {
             console.error('Ошибка:', error);
@@ -107,7 +108,7 @@ function displayEl(gun){
                 </div>
 
                 <div class="buttons">
-                    <button class="buy">
+                    <button class="buy" id="${prod_code}">
                         КУПИТЬ
                     </button>
                     <button class="one_click">
@@ -116,6 +117,7 @@ function displayEl(gun){
                 </div>
                 </section>
             `;
+
 
         
 }
