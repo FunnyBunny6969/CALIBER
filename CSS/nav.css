@@ -32,10 +32,14 @@ nav .icon {
   min-height: 45px;
   width: 86vw;
   background-color: white;
-  mask-image: url("/img/Hamburger_icon.png");
-  mask-size: contain;
-  mask-repeat: no-repeat;
-  mask-position: center;
+  -webkit-mask-image: url("/img/Hamburger_icon.png");
+          mask-image: url("/img/Hamburger_icon.png");
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
 }
 nav a {
   text-decoration: none;

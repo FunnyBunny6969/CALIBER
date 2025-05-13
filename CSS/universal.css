@@ -25,6 +25,7 @@ article .main-cont {
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.3);
   border: rgb(200, 200, 200) 0.5px solid;
   margin: 15px;
+  min-height: 70vh;
   padding: 20px;
 }
 article .main-cont h2 {

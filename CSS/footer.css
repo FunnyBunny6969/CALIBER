@@ -33,10 +33,14 @@ footer .logo {
 footer .logo .img {
   height: 85px;
   background-color: white;
-  mask-image: url("/img/logo.svg");
-  mask-size: contain;
-  mask-repeat: no-repeat;
-  mask-position: center;
+  -webkit-mask-image: url("/img/logo.svg");
+          mask-image: url("/img/logo.svg");
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
 }
 footer .logo p {
   font-size: 15px;
@@ -71,9 +75,12 @@ footer .phone .links a .img {
   height: 20px;
   margin-left: 7px;
   background-color: white;
-  mask-size: contain;
-  mask-repeat: no-repeat;
-  mask-position: center;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
 }
 footer .phone p {
   font-size: 12px;

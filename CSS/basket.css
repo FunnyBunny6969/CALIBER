@@ -19,13 +19,18 @@ a {
 table {
   width: 100%;
   border-collapse: collapse;
-  min-height: 60vh;
 }
 table tr {
   height: 120px;
+  max-height: 120px;
   width: 100%;
   border-bottom: 2px solid rgb(200, 200, 200);
   position: relative;
+}
+table tr th {
+  font-size: 20px;
+  color: #424242;
+  font-family: "Roboto", sans-serif;
 }
 table tr td {
   height: 100%;
@@ -36,8 +41,8 @@ table tr td {
   text-align: center;
 }
 table tr td .deleter {
-  height: 17px;
-  width: 17px;
+  height: 20px;
+  width: 20px;
 }
 table tr td .deleter:hover {
   background-color: red;
@@ -51,7 +56,8 @@ table tr td .counter {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 60px;
+  width: 200px;
+  align-items: center;
 }
 table tr td .counter .plus, table tr td .counter .minus, table tr td .counter .count {
   width: 60px;
@@ -77,12 +83,33 @@ table tr td .counter .minus {
   border-bottom-right-radius: 5px;
   margin: 0;
 }
+table tr td:nth-child(3) {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   table tr td img {
     width: 100%;
   }
+  table tr td .counter {
+    width: auto;
+  }
   table tr td:nth-child(3) {
     display: none;
+  }
+  table thead {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  table tr td {
+    font-size: 15px;
+  }
+  table tr td .counter {
+    width: auto;
+  }
+  table tr td .counter .plus, table tr td .counter .minus, table tr td .counter .count {
+    width: 40px;
   }
 }/*# sourceMappingURL=basket.css.map */

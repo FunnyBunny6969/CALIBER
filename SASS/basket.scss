@@ -1,17 +1,20 @@
 @import 'common';
 
 
-
 table{
     width: 100%;
     border-collapse: collapse;
-    min-height: 60vh;
 
     tr{
         height: 120px;
+        max-height: 120px;
         width: 100%;
         border-bottom: 2px solid $card_border;
         position: relative;
+
+        th{
+            @include text-style(20px);
+        }
 
 
         td{
@@ -21,8 +24,8 @@ table{
             text-align: center;
 
             .deleter{
-                height: 17px;
-                width: 17px;
+                height: 20px;
+                width: 20px;
 
                 &:hover{
                     background-color: red;
@@ -39,7 +42,8 @@ table{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                width: 60px;
+                width: 200px;
+                align-items: center;
 
                 .plus, .minus, .count{
                     width: 60px;
@@ -67,22 +71,54 @@ table{
                     margin: 0;
                 }
             }
+
+            &:nth-child(3){
+                padding-left: 5%;
+                padding-right: 5%;
+            }
         }
-
-
     }
 }
 
-@media (max-width: $mobile_width) {
+
+@media (max-width: $tablet_width) {
     table{
         tr{
             td{
                 img{
                     width: 100%;
                 }
+
+                .counter{
+                    width: auto;
+                }
+
                 &:nth-child(3){
                     display: none;
                 }
+            }
+
+        }
+        thead{
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: $mobile_width){
+    table{
+        tr{
+            td{
+                font-size: 15px;
+
+                .counter{
+                    width: auto;
+                    .plus, .minus, .count{
+                        width: 40px;
+                    }
+                }
+
             }
         }
     }

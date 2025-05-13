@@ -12,8 +12,42 @@ function bind_buy_button(){
         buy_btn[i].addEventListener('click', function(){
             basket.push(this.id);
             localStorage.setItem('codes', basket.join(','));
-            console.log(this.id);
             updateCount();
+        });
+    }
+}
+
+
+function bind_plus(){
+    let plus = document.querySelectorAll('.plus');
+    for(let i = 0; i < plus.length; i++){
+        plus[i].addEventListener('click', function(){
+            basket.push(this.parentNode.parentNode.parentNode.id);
+            localStorage.setItem('codes', basket.join(','));
+            
+            updateCount();
+            document.querySelector('tbody').innerHTML = '';
+            listBasket();
+        });
+    }
+}
+
+
+function bind_minus(){
+    let minus = document.querySelectorAll('.minus');
+    for(let i = 0; i < minus.length; i++){
+        minus[i].addEventListener('click', function(){
+            for (let j = 0; j < basket.length; j++) {
+                if (basket[j] == this.parentNode.parentNode.parentNode.id) {
+                    basket.splice(j, 1); 
+                    break; 
+                }
+            }
+            localStorage.setItem('codes', basket.join(','));
+            
+            updateCount();
+            document.querySelector('tbody').innerHTML = '';
+            listBasket();
         });
     }
 }
@@ -23,7 +57,7 @@ function bind_deleter(){
     let deleter = document.querySelectorAll('.deleter');
     for(let i = 0; i < deleter.length; i++){
         deleter[i].addEventListener('click', function(){
-            basket = basket.filter(id => id !== this.id);
+            basket = basket.filter(id => id !== this.parentNode.parentNode.id);
             localStorage.setItem('codes', basket.join(','));
             updateCount();
             document.querySelector('tbody').innerHTML = '';
@@ -44,9 +78,9 @@ function addRow(gun, count, id){
     price = price.replace(' BYN', '');
     
     document.querySelector('tbody').innerHTML += `
-        <tr>
+        <tr id="${id}">
             <td>
-                <img src="img/krestik.jpg" alt="" class="deleter" id="${id}">
+                <img src="img/krestik.jpg" alt="" class="deleter">
             </td>
             <td>
                 <img src="${img}" alt="">
@@ -94,6 +128,8 @@ function listBasket(){
             });
 
             bind_deleter();
+            bind_plus();
+            bind_minus();
         })
         .catch(error => {
             console.error('Ошибка:', error);
