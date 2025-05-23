@@ -224,6 +224,15 @@
 
 
 @media (max-width: $tablet-width) {
+    
+    .headline{
+        &:not(#empty):hover::after { 
+            width: 80%;
+        }
+
+    }
+
+
     .filtBtn{
         display: flex;
         justify-content: center;

@@ -162,6 +162,9 @@ a {
 }
 
 @media (max-width: 900px) {
+  .headline:not(#empty):hover::after {
+    width: 80%;
+  }
   .filtBtn {
     display: flex;
     justify-content: center;
